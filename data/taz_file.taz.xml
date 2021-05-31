@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+<tazs>
+    <taz id="1" edges="1i"></taz>
+    <taz id="2" edges="4i"></taz>
+    <taz id="3" edges="2o"></taz>
+    <taz id="4" edges="3o"></taz>
+</tazs>
+
+</additional>
