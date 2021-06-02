@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.3 (3709018 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="16.0671400" minlon="108.2164000" maxlat="16.0686200" maxlon="108.2188100"/>
+ <node id="420248835" visible="true" version="10" changeset="71652830" timestamp="2019-06-26T21:49:28Z" user="CoolGuyJake" uid="7674729" lat="16.0672346" lon="108.2140622">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="420248842" visible="true" version="6" changeset="70889522" timestamp="2019-06-03T14:59:40Z" user="Copernicus529" uid="9319354" lat="16.0676015" lon="108.2158467"/>
+ <node id="420248971" visible="true" version="4" changeset="25414329" timestamp="2014-09-13T16:11:24Z" user="TuanIfan" uid="625303" lat="16.0683406" lon="108.2192017"/>
+ <node id="420248975" visible="true" version="10" changeset="70890404" timestamp="2019-06-03T15:28:47Z" user="Copernicus529" uid="9319354" lat="16.0686197" lon="108.2203423"/>
+ <node id="420249151" visible="true" version="8" changeset="71652663" timestamp="2019-06-26T21:42:03Z" user="CoolGuyJake" uid="7674729" lat="16.0709197" lon="108.2169294">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="728153375" visible="true" version="1" changeset="4655728" timestamp="2010-05-10T03:12:41Z" user="ninomax" uid="47976" lat="16.0683620" lon="108.2185721">
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="ACB - ATM"/>
+ </node>
+ <node id="728153401" visible="true" version="1" changeset="4655728" timestamp="2010-05-10T03:12:42Z" user="ninomax" uid="47976" lat="16.0684032" lon="108.2187116">
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="Techcombank - ATM"/>
+ </node>
+ <node id="728153439" visible="true" version="1" changeset="4655728" timestamp="2010-05-10T03:12:44Z" user="ninomax" uid="47976" lat="16.0684084" lon="108.2187223">
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="BIDV - May Pos - ATM"/>
+ </node>
+ <node id="728153527" visible="true" version="2" changeset="6642040" timestamp="2010-12-12T22:19:43Z" user="richlv" uid="47892" lat="16.0684000" lon="108.2187125">
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="Southerbank - ATM"/>
+ </node>
+ <node id="728153562" visible="true" version="1" changeset="4655728" timestamp="2010-05-10T03:12:51Z" user="ninomax" uid="47976" lat="16.0682538" lon="108.2180464">
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="Dong A - ATM"/>
+ </node>
+ <node id="728153614" visible="true" version="2" changeset="6642040" timestamp="2010-12-12T22:19:51Z" user="richlv" uid="47892" lat="16.0684066" lon="108.2187108">
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="SCB - ATM"/>
+ </node>
+ <node id="728153655" visible="true" version="1" changeset="4655728" timestamp="2010-05-10T03:12:54Z" user="ninomax" uid="47976" lat="16.0681300" lon="108.2174563">
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="Agribank - ATM"/>
+ </node>
+ <node id="729406609" visible="true" version="3" changeset="4672838" timestamp="2010-05-11T22:05:23Z" user="xybot" uid="70696" lat="16.0674960" lon="108.2176172">
+  <tag k="amenity" v="cafe"/>
+  <tag k="name" v="ThanhLan Coffee"/>
+ </node>
+ <node id="1333303398" visible="true" version="3" changeset="70936002" timestamp="2019-06-04T19:49:29Z" user="Copernicus529" uid="9319354" lat="16.0659085" lon="108.2184550"/>
+ <node id="1333303403" visible="true" version="4" changeset="70890067" timestamp="2019-06-03T15:17:51Z" user="Copernicus529" uid="9319354" lat="16.0679802" lon="108.2176106"/>
+ <node id="1333303420" visible="true" version="5" changeset="70889154" timestamp="2019-06-03T14:48:00Z" user="Kaarti_B" uid="9029309" lat="16.0721689" lon="108.2166379"/>
+ <node id="1333303510" visible="true" version="2" changeset="25442040" timestamp="2014-09-14T20:34:10Z" user="TuanIfan" uid="625303" lat="16.0666743" lon="108.2179048"/>
+ <node id="1333315265" visible="true" version="2" changeset="25442040" timestamp="2014-09-14T20:34:10Z" user="TuanIfan" uid="625303" lat="16.0695777" lon="108.2172743"/>
+ <node id="1333341502" visible="true" version="2" changeset="25442040" timestamp="2014-09-14T20:34:09Z" user="TuanIfan" uid="625303" lat="16.0669585" lon="108.2159916"/>
+ <node id="1333341536" visible="true" version="2" changeset="25442040" timestamp="2014-09-14T20:34:10Z" user="TuanIfan" uid="625303" lat="16.0670750" lon="108.2165463"/>
+ <node id="1333341541" visible="true" version="3" changeset="34263038" timestamp="2015-09-26T13:09:45Z" user="totim" uid="562188" lat="16.0673173" lon="108.2177462"/>
+ <node id="1333698950" visible="true" version="3" changeset="64185017" timestamp="2018-11-05T04:38:45Z" user="jagdish30" uid="9035969" lat="16.0674162" lon="108.2149168"/>
+ <node id="1333698971" visible="true" version="4" changeset="70889154" timestamp="2019-06-03T14:48:00Z" user="Kaarti_B" uid="9029309" lat="16.0714058" lon="108.2168160"/>
+ <node id="1334202697" visible="true" version="4" changeset="64185017" timestamp="2018-11-05T04:38:45Z" user="jagdish30" uid="9035969" lat="16.0674564" lon="108.2150785"/>
+ <node id="3077384360" visible="true" version="1" changeset="25442040" timestamp="2014-09-14T20:34:04Z" user="TuanIfan" uid="625303" lat="16.0662614" lon="108.2180776"/>
+ <node id="3513922448" visible="true" version="1" changeset="31075800" timestamp="2015-05-13T04:51:04Z" user="totim" uid="562188" lat="16.0704002" lon="108.2170774"/>
+ <node id="3760188241" visible="true" version="1" changeset="34263038" timestamp="2015-09-26T13:09:44Z" user="totim" uid="562188" lat="16.0671647" lon="108.2170270"/>
+ <node id="3760188242" visible="true" version="1" changeset="34263038" timestamp="2015-09-26T13:09:44Z" user="totim" uid="562188" lat="16.0665158" lon="108.2171513"/>
+ <node id="3760188249" visible="true" version="2" changeset="64184348" timestamp="2018-11-05T03:50:11Z" user="jagdish30" uid="9035969" lat="16.0665260" lon="108.2179695"/>
+ <node id="3761464385" visible="true" version="1" changeset="34283768" timestamp="2015-09-27T13:54:00Z" user="totim" uid="562188" lat="16.0681924" lon="108.2185474"/>
+ <node id="3761464386" visible="true" version="2" changeset="97531652" timestamp="2021-01-15T05:43:08Z" user="shai_k" uid="11659053" lat="16.0689661" lon="108.2183615"/>
+ <node id="3761464387" visible="true" version="1" changeset="34283768" timestamp="2015-09-27T13:54:00Z" user="totim" uid="562188" lat="16.0681292" lon="108.2182684"/>
+ <node id="3761464388" visible="true" version="1" changeset="34283768" timestamp="2015-09-27T13:54:00Z" user="totim" uid="562188" lat="16.0686171" lon="108.2181607"/>
+ <node id="3761464389" visible="true" version="1" changeset="34283768" timestamp="2015-09-27T13:54:00Z" user="totim" uid="562188" lat="16.0687231" lon="108.2181478"/>
+ <node id="4023430848" visible="true" version="2" changeset="64184348" timestamp="2018-11-05T03:50:11Z" user="jagdish30" uid="9035969" lat="16.0661138" lon="108.2182217"/>
+ <node id="4353396789" visible="true" version="1" changeset="41503404" timestamp="2016-08-17T03:19:27Z" user="Nicola Tuckniss" uid="4335783" lat="16.0681445" lon="108.2184394">
+  <tag k="amenity" v="atm"/>
+ </node>
+ <node id="4541146990" visible="true" version="1" changeset="44208754" timestamp="2016-12-06T12:58:42Z" user="David Beverley" uid="4855252" lat="16.0673840" lon="108.2178081">
+  <tag k="amenity" v="restaurant"/>
+  <tag k="name" v="Pho 75"/>
+  <tag k="name:en" v="Pho 75"/>
+  <tag k="name:vi" v="Pho 75"/>
+ </node>
+ <node id="4830935021" visible="true" version="2" changeset="91081822" timestamp="2020-09-18T04:48:01Z" user="Adiatma IRM-RV" uid="8072074" lat="16.0680003" lon="108.2178454">
+  <tag k="highway" v="bus_stop"/>
+  <tag k="public_transport" v="platform"/>
+ </node>
+ <node id="4914129721" visible="true" version="2" changeset="91081822" timestamp="2020-09-18T04:48:01Z" user="Adiatma IRM-RV" uid="8072074" lat="16.0679525" lon="108.2174841">
+  <tag k="highway" v="bus_stop"/>
+  <tag k="name:ru" v="1,2,3,11,12"/>
+  <tag k="public_transport" v="platform"/>
+ </node>
+ <node id="5608881355" visible="true" version="1" changeset="58843513" timestamp="2018-05-10T09:19:18Z" user="ff5722" uid="3450290" lat="16.0678930" lon="108.2171570">
+  <tag k="alt_name" v="PNJ Hùng Vương"/>
+  <tag k="brand" v="PNJ"/>
+  <tag k="name" v="PNJ"/>
+  <tag k="shop" v="jewelry"/>
+  <tag k="website" v="https://www.pnj.com.vn/"/>
+ </node>
+ <node id="6038353335" visible="true" version="2" changeset="71232910" timestamp="2019-06-13T21:36:43Z" user="Copernicus529" uid="9319354" lat="16.0674117" lon="108.2148974">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6098715289" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0698468" lon="108.2156676"/>
+ <node id="6098715290" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0696629" lon="108.2156746"/>
+ <node id="6098715291" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0688192" lon="108.2158964"/>
+ <node id="6098715292" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0686330" lon="108.2159898"/>
+ <node id="6098715293" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0687698" lon="108.2161673"/>
+ <node id="6098715294" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0686799" lon="108.2162467"/>
+ <node id="6098715295" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0685723" lon="108.2161632"/>
+ <node id="6098715296" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0684701" lon="108.2163854"/>
+ <node id="6098715297" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0684483" lon="108.2166307"/>
+ <node id="6098715298" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0685095" lon="108.2168687"/>
+ <node id="6098715299" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0686462" lon="108.2170698"/>
+ <node id="6098715300" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0688413" lon="108.2172091"/>
+ <node id="6098715301" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0688910" lon="108.2170733"/>
+ <node id="6098715302" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0689448" lon="108.2171013"/>
+ <node id="6098715303" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0689628" lon="108.2172250"/>
+ <node id="6098715304" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0690301" lon="108.2172087"/>
+ <node id="6098715305" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0690548" lon="108.2173394"/>
+ <node id="6098715306" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0701071" lon="108.2170639"/>
+ <node id="6098715307" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0700892" lon="108.2169448"/>
+ <node id="6098715308" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0701610" lon="108.2169355"/>
+ <node id="6098715309" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0701296" lon="108.2167954"/>
+ <node id="6098715310" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0701699" lon="108.2167440"/>
+ <node id="6098715311" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0702613" lon="108.2168369"/>
+ <node id="6098715312" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0703409" lon="108.2166528"/>
+ <node id="6098715313" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0703734" lon="108.2164538"/>
+ <node id="6098715314" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0703567" lon="108.2162527"/>
+ <node id="6098715315" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0702920" lon="108.2160625"/>
+ <node id="6098715316" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0701834" lon="108.2158952"/>
+ <node id="6098715317" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0700378" lon="108.2157619"/>
+ <node id="6098715318" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0699718" lon="108.2159000"/>
+ <node id="6098715319" visible="true" version="1" changeset="64965270" timestamp="2018-11-28T09:27:01Z" user="stadiaarcadia" uid="8570285" lat="16.0698468" lon="108.2158824"/>
+ <node id="6152615685" visible="true" version="1" changeset="65681987" timestamp="2018-12-21T22:35:58Z" user="Chu Đậu" uid="9268334" lat="16.0684812" lon="108.2174327">
+  <tag k="addr:housenumber" v="35"/>
+  <tag k="addr:street" v="Ngô Gia Tự"/>
+  <tag k="amenity" v="restaurant"/>
+  <tag k="cuisine" v="diner"/>
+  <tag k="name" v="Cút lộn me Bà Lanh"/>
+ </node>
+ <node id="6513539883" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0681534" lon="108.2173090"/>
+ <node id="6513539884" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0680054" lon="108.2173429"/>
+ <node id="6513544997" visible="true" version="1" changeset="70814245" timestamp="2019-05-31T16:05:11Z" user="Copernicus529" uid="9319354" lat="16.0681704" lon="108.2173984"/>
+ <node id="6513544998" visible="true" version="1" changeset="70814245" timestamp="2019-05-31T16:05:11Z" user="Copernicus529" uid="9319354" lat="16.0680246" lon="108.2174315"/>
+ <node id="6513544999" visible="true" version="1" changeset="70814245" timestamp="2019-05-31T16:05:11Z" user="Copernicus529" uid="9319354" lat="16.0680097" lon="108.2173607"/>
+ <node id="6513545000" visible="true" version="1" changeset="70814245" timestamp="2019-05-31T16:05:11Z" user="Copernicus529" uid="9319354" lat="16.0681555" lon="108.2173276"/>
+ <node id="6513555285" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0679897" lon="108.2172691"/>
+ <node id="6513555286" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0681378" lon="108.2172352"/>
+ <node id="6513555287" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0681164" lon="108.2171139"/>
+ <node id="6513555288" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0679662" lon="108.2171485"/>
+ <node id="6513555289" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0679490" lon="108.2170680"/>
+ <node id="6513555290" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0680993" lon="108.2170334"/>
+ <node id="6513555291" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0680472" lon="108.2168861"/>
+ <node id="6513555292" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0679273" lon="108.2169122"/>
+ <node id="6513555293" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0679128" lon="108.2168400"/>
+ <node id="6513555294" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0680327" lon="108.2168138"/>
+ <node id="6513555295" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0678930" lon="108.2167409"/>
+ <node id="6513555296" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0679122" lon="108.2168271"/>
+ <node id="6513555297" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0680438" lon="108.2167954"/>
+ <node id="6513555298" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354" lat="16.0680245" lon="108.2167091"/>
+ <node id="6513555299" visible="true" version="3" changeset="70889906" timestamp="2019-06-03T15:13:10Z" user="Copernicus529" uid="9319354" lat="16.0676209" lon="108.2159235">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="6513728749" visible="true" version="1" changeset="70816402" timestamp="2019-05-31T17:11:59Z" user="Copernicus529" uid="9319354" lat="16.0683606" lon="108.2192871">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6513728751" visible="true" version="1" changeset="70816402" timestamp="2019-05-31T17:11:59Z" user="Copernicus529" uid="9319354" lat="16.0683174" lon="108.2190912">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6513728752" visible="true" version="1" changeset="70816402" timestamp="2019-05-31T17:11:59Z" user="Copernicus529" uid="9319354" lat="16.0684108" lon="108.2188457"/>
+ <node id="6513728753" visible="true" version="1" changeset="70816402" timestamp="2019-05-31T17:11:59Z" user="Copernicus529" uid="9319354" lat="16.0683035" lon="108.2188727"/>
+ <node id="6513728754" visible="true" version="1" changeset="70816402" timestamp="2019-05-31T17:11:59Z" user="Copernicus529" uid="9319354" lat="16.0682903" lon="108.2188158"/>
+ <node id="6513728755" visible="true" version="1" changeset="70816402" timestamp="2019-05-31T17:11:59Z" user="Copernicus529" uid="9319354" lat="16.0683976" lon="108.2187888"/>
+ <node id="6513743509" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0682840" lon="108.2181188"/>
+ <node id="6513743510" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0681486" lon="108.2181457"/>
+ <node id="6513743511" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0681385" lon="108.2180909"/>
+ <node id="6513743512" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0682740" lon="108.2180640"/>
+ <node id="6513743513" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0682721" lon="108.2180419"/>
+ <node id="6513743514" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0681337" lon="108.2180665"/>
+ <node id="6513743515" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0681252" lon="108.2180147"/>
+ <node id="6513743516" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0682636" lon="108.2179900"/>
+ <node id="6513743517" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0682221" lon="108.2178514"/>
+ <node id="6513743518" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0681139" lon="108.2178748"/>
+ <node id="6513743519" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0680989" lon="108.2177997"/>
+ <node id="6513743520" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354" lat="16.0682071" lon="108.2177762"/>
+ <node id="6513743521" visible="true" version="3" changeset="70936800" timestamp="2019-06-04T20:15:44Z" user="Copernicus529" uid="9319354" lat="16.0678778" lon="108.2176316">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="6513743522" visible="true" version="3" changeset="70936800" timestamp="2019-06-04T20:15:44Z" user="Copernicus529" uid="9319354" lat="16.0681000" lon="108.2175854">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:direction" v="backward"/>
+ </node>
+ <node id="6513745688" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0683951" lon="108.2187558"/>
+ <node id="6513745689" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0682796" lon="108.2187774"/>
+ <node id="6513745690" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0682688" lon="108.2187148"/>
+ <node id="6513745691" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0683843" lon="108.2186933"/>
+ <node id="6513745692" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0683570" lon="108.2184941"/>
+ <node id="6513745693" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0682260" lon="108.2185203"/>
+ <node id="6513745694" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0682177" lon="108.2184753"/>
+ <node id="6513745695" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0683487" lon="108.2184491"/>
+ <node id="6513745696" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0683332" lon="108.2183686"/>
+ <node id="6513745697" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0682051" lon="108.2183917"/>
+ <node id="6513745698" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0681977" lon="108.2183474"/>
+ <node id="6513745699" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354" lat="16.0683258" lon="108.2183243"/>
+ <node id="6513788365" visible="true" version="2" changeset="70890404" timestamp="2019-06-03T15:28:47Z" user="Copernicus529" uid="9319354" lat="16.0685903" lon="108.2202226">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="6518482568" visible="true" version="5" changeset="71652830" timestamp="2019-06-26T21:49:28Z" user="CoolGuyJake" uid="7674729" lat="16.0672738" lon="108.2142524">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6518486385" visible="true" version="1" changeset="70889154" timestamp="2019-06-03T14:48:00Z" user="Kaarti_B" uid="9029309" lat="16.0720595" lon="108.2166634">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6518486387" visible="true" version="3" changeset="71652663" timestamp="2019-06-26T21:42:03Z" user="CoolGuyJake" uid="7674729" lat="16.0707398" lon="108.2169807">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6518486389" visible="true" version="3" changeset="71652663" timestamp="2019-06-26T21:42:03Z" user="CoolGuyJake" uid="7674729" lat="16.0711211" lon="108.2168874">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6518503914" visible="true" version="2" changeset="70889906" timestamp="2019-06-03T15:13:10Z" user="Copernicus529" uid="9319354" lat="16.0675824" lon="108.2157708">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="6518525105" visible="true" version="1" changeset="70889906" timestamp="2019-06-03T15:13:10Z" user="Copernicus529" uid="9319354" lat="16.0676822" lon="108.2162143"/>
+ <node id="6518536549" visible="true" version="2" changeset="70936800" timestamp="2019-06-04T20:15:44Z" user="Copernicus529" uid="9319354" lat="16.0679602" lon="108.2175171">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="6518536550" visible="true" version="2" changeset="70936800" timestamp="2019-06-04T20:15:44Z" user="Copernicus529" uid="9319354" lat="16.0680012" lon="108.2177034">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:direction" v="backward"/>
+ </node>
+ <node id="6518922607" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0675965" lon="108.2174503"/>
+ <node id="6518922608" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0678622" lon="108.2173944"/>
+ <node id="6518922609" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0678462" lon="108.2173122"/>
+ <node id="6518922610" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0675805" lon="108.2173681"/>
+ <node id="6518922611" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0675644" lon="108.2172680"/>
+ <node id="6518922612" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0675801" lon="108.2173493"/>
+ <node id="6518922613" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0678462" lon="108.2172939"/>
+ <node id="6518922614" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0678306" lon="108.2172126"/>
+ <node id="6518922615" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0677466" lon="108.2167950"/>
+ <node id="6518922616" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0674614" lon="108.2168489"/>
+ <node id="6518922617" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0674497" lon="108.2167816"/>
+ <node id="6518922618" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0677349" lon="108.2167278"/>
+ <node id="6518922619" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0677342" lon="108.2167138"/>
+ <node id="6518922620" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0674490" lon="108.2167697"/>
+ <node id="6518922621" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0674340" lon="108.2166871"/>
+ <node id="6518922622" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354" lat="16.0677192" lon="108.2166312"/>
+ <node id="6519014830" visible="true" version="1" changeset="70901463" timestamp="2019-06-03T21:36:43Z" user="Copernicus529" uid="9319354" lat="16.0677276" lon="108.2182093"/>
+ <node id="6519014831" visible="true" version="1" changeset="70901463" timestamp="2019-06-03T21:36:43Z" user="Copernicus529" uid="9319354" lat="16.0671695" lon="108.2183505"/>
+ <node id="6519014832" visible="true" version="1" changeset="70901463" timestamp="2019-06-03T21:36:43Z" user="Copernicus529" uid="9319354" lat="16.0670889" lon="108.2180060"/>
+ <node id="6519014833" visible="true" version="1" changeset="70901463" timestamp="2019-06-03T21:36:43Z" user="Copernicus529" uid="9319354" lat="16.0676471" lon="108.2178647"/>
+ <node id="6519061409" visible="true" version="1" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0703067" lon="108.2167475"/>
+ <node id="6519061410" visible="true" version="1" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0703632" lon="108.2165544"/>
+ <node id="6519061411" visible="true" version="1" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0703712" lon="108.2163527"/>
+ <node id="6519061412" visible="true" version="1" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0703302" lon="108.2161554"/>
+ <node id="6519061413" visible="true" version="1" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0702428" lon="108.2159753"/>
+ <node id="6519061414" visible="true" version="1" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0701147" lon="108.2158237"/>
+ <node id="6519061415" visible="true" version="1" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0687378" lon="108.2171485"/>
+ <node id="6519061416" visible="true" version="1" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0685693" lon="108.2169755"/>
+ <node id="6519061417" visible="true" version="1" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0684688" lon="108.2167525"/>
+ <node id="6519061418" visible="true" version="1" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0684487" lon="108.2165071"/>
+ <node id="6519061419" visible="true" version="1" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354" lat="16.0685117" lon="108.2162696"/>
+ <node id="6519066495" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0675714" lon="108.2186086"/>
+ <node id="6519066496" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0676188" lon="108.2188304"/>
+ <node id="6519066497" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0676401" lon="108.2188255"/>
+ <node id="6519066498" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0675926" lon="108.2186037"/>
+ <node id="6519066499" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0680329" lon="108.2187320"/>
+ <node id="6519066500" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0679865" lon="108.2185148"/>
+ <node id="6519066501" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0680155" lon="108.2187360"/>
+ <node id="6519066502" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0679691" lon="108.2185188"/>
+ <node id="6519066503" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0680226" lon="108.2187692"/>
+ <node id="6519066504" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0676466" lon="108.2188562"/>
+ <node id="6519066505" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0675871" lon="108.2185777"/>
+ <node id="6519066506" visible="true" version="1" changeset="70901448" timestamp="2019-06-03T21:35:58Z" user="Copernicus529" uid="9319354" lat="16.0679631" lon="108.2184907"/>
+ <node id="6521956939" visible="true" version="1" changeset="70936308" timestamp="2019-06-04T19:57:37Z" user="Copernicus529" uid="9319354" lat="16.0666393" lon="108.2179201">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6521956944" visible="true" version="1" changeset="70936308" timestamp="2019-06-04T19:57:37Z" user="Copernicus529" uid="9319354" lat="16.0664633" lon="108.2179923"/>
+ <node id="6521975442" visible="true" version="1" changeset="70936212" timestamp="2019-06-04T19:54:56Z" user="Copernicus529" uid="9319354" lat="16.0659699" lon="108.2183853">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6522028102" visible="true" version="1" changeset="70936800" timestamp="2019-06-04T20:15:44Z" user="Copernicus529" uid="9319354" lat="16.0705544" lon="108.2170335"/>
+ <node id="6522028103" visible="true" version="1" changeset="70936800" timestamp="2019-06-04T20:15:44Z" user="Copernicus529" uid="9319354" lat="16.0694722" lon="108.2172965">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6522028104" visible="true" version="1" changeset="70936800" timestamp="2019-06-04T20:15:44Z" user="Copernicus529" uid="9319354" lat="16.0674284" lon="108.2177235">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6522028105" visible="true" version="1" changeset="70936800" timestamp="2019-06-04T20:15:44Z" user="Copernicus529" uid="9319354" lat="16.0672959" lon="108.2176453">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6524343069" visible="true" version="1" changeset="70955833" timestamp="2019-06-05T14:02:04Z" user="Copernicus529" uid="9319354" lat="16.0672390" lon="108.2175713"/>
+ <node id="6524343070" visible="true" version="1" changeset="70955833" timestamp="2019-06-05T14:02:04Z" user="Copernicus529" uid="9319354" lat="16.0671499" lon="108.2175925"/>
+ <node id="6524343071" visible="true" version="1" changeset="70955833" timestamp="2019-06-05T14:02:04Z" user="Copernicus529" uid="9319354" lat="16.0671304" lon="108.2175033"/>
+ <node id="6524343072" visible="true" version="1" changeset="70955833" timestamp="2019-06-05T14:02:04Z" user="Copernicus529" uid="9319354" lat="16.0672194" lon="108.2174821"/>
+ <node id="6524644156" visible="true" version="1" changeset="70957589" timestamp="2019-06-05T14:50:08Z" user="Copernicus529" uid="9319354" lat="16.0691555" lon="108.2173632"/>
+ <node id="6524665619" visible="true" version="1" changeset="70957452" timestamp="2019-06-05T14:47:08Z" user="Copernicus529" uid="9319354" lat="16.0685200" lon="108.2176611"/>
+ <node id="6524665620" visible="true" version="1" changeset="70957452" timestamp="2019-06-05T14:47:08Z" user="Copernicus529" uid="9319354" lat="16.0685773" lon="108.2176484"/>
+ <node id="6524665621" visible="true" version="1" changeset="70957452" timestamp="2019-06-05T14:47:08Z" user="Copernicus529" uid="9319354" lat="16.0685560" lon="108.2175435"/>
+ <node id="6524665622" visible="true" version="1" changeset="70957452" timestamp="2019-06-05T14:47:08Z" user="Copernicus529" uid="9319354" lat="16.0684986" lon="108.2175561"/>
+ <node id="6524665623" visible="true" version="1" changeset="70957452" timestamp="2019-06-05T14:47:08Z" user="Copernicus529" uid="9319354" lat="16.0685056" lon="108.2176657"/>
+ <node id="6524665624" visible="true" version="1" changeset="70957452" timestamp="2019-06-05T14:47:08Z" user="Copernicus529" uid="9319354" lat="16.0684526" lon="108.2176770"/>
+ <node id="6524665625" visible="true" version="1" changeset="70957452" timestamp="2019-06-05T14:47:08Z" user="Copernicus529" uid="9319354" lat="16.0684319" lon="108.2175726"/>
+ <node id="6524665626" visible="true" version="1" changeset="70957452" timestamp="2019-06-05T14:47:08Z" user="Copernicus529" uid="9319354" lat="16.0684849" lon="108.2175612"/>
+ <node id="6524686853" visible="true" version="1" changeset="70957812" timestamp="2019-06-05T14:56:25Z" user="Copernicus529" uid="9319354" lat="16.0702316" lon="108.2171174"/>
+ <node id="6524688287" visible="true" version="1" changeset="70957371" timestamp="2019-06-05T14:45:03Z" user="Copernicus529" uid="9319354" lat="16.0682379" lon="108.2177146"/>
+ <node id="6524688288" visible="true" version="1" changeset="70957371" timestamp="2019-06-05T14:45:03Z" user="Copernicus529" uid="9319354" lat="16.0681836" lon="108.2177264"/>
+ <node id="6524688289" visible="true" version="1" changeset="70957371" timestamp="2019-06-05T14:45:03Z" user="Copernicus529" uid="9319354" lat="16.0681652" lon="108.2176347"/>
+ <node id="6524688290" visible="true" version="1" changeset="70957371" timestamp="2019-06-05T14:45:03Z" user="Copernicus529" uid="9319354" lat="16.0682195" lon="108.2176229"/>
+ <node id="6524688291" visible="true" version="1" changeset="70957371" timestamp="2019-06-05T14:45:03Z" user="Copernicus529" uid="9319354" lat="16.0677951" lon="108.2177821"/>
+ <node id="6524688292" visible="true" version="1" changeset="70957371" timestamp="2019-06-05T14:45:03Z" user="Copernicus529" uid="9319354" lat="16.0679064" lon="108.2177516"/>
+ <node id="6524688293" visible="true" version="1" changeset="70957371" timestamp="2019-06-05T14:45:03Z" user="Copernicus529" uid="9319354" lat="16.0678853" lon="108.2176679"/>
+ <node id="6524688294" visible="true" version="1" changeset="70957371" timestamp="2019-06-05T14:45:03Z" user="Copernicus529" uid="9319354" lat="16.0677739" lon="108.2176984"/>
+ <node id="6524722800" visible="true" version="1" changeset="70957685" timestamp="2019-06-05T14:52:48Z" user="Copernicus529" uid="9319354" lat="16.0696689" lon="108.2172511">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6555570446" visible="true" version="1" changeset="71368930" timestamp="2019-06-18T14:36:47Z" user="Copernicus529" uid="9319354" lat="16.0669808" lon="108.2160979">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6555689175" visible="true" version="1" changeset="71370159" timestamp="2019-06-18T15:11:42Z" user="Copernicus529" uid="9319354" lat="16.0671540" lon="108.2172389">
+  <tag k="addr:housenumber" v="19"/>
+  <tag k="addr:street" v="Đường Trần Kế Xương"/>
+ </node>
+ <node id="6555689178" visible="true" version="1" changeset="71370159" timestamp="2019-06-18T15:11:42Z" user="Copernicus529" uid="9319354" lat="16.0670970" lon="108.2166643">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6555689179" visible="true" version="1" changeset="71370159" timestamp="2019-06-18T15:11:42Z" user="Copernicus529" uid="9319354" lat="16.0670512" lon="108.2164331">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6813546277" visible="true" version="1" changeset="74741357" timestamp="2019-09-21T06:49:46Z" user="ff5722" uid="3450290" lat="16.0677503" lon="108.2167914">
+  <tag k="addr:full" v="147 Hùng Vương, Hải Châu 2, Hải Châu, Đà Nẵng, Việt Nam"/>
+  <tag k="addr:housenumber" v="147"/>
+  <tag k="addr:street" v="Hùng Vương"/>
+  <tag k="alt_name" v="An Phước Đà Nẵng 4 - Hùng Vương"/>
+  <tag k="clothes" v="suits"/>
+  <tag k="name" v="An Phước"/>
+  <tag k="name:en" v="An Phuoc"/>
+  <tag k="opening_hours" v="8:00-22:00"/>
+  <tag k="phone" v="0236 3666 300"/>
+  <tag k="shop" v="clothes"/>
+ </node>
+ <node id="7076723801" visible="true" version="1" changeset="78725529" timestamp="2019-12-22T04:03:30Z" user="ahapen" uid="9455916" lat="16.0681518" lon="108.2180319">
+  <tag k="name" v="Vinmart+"/>
+  <tag k="shop" v="convenience"/>
+ </node>
+ <node id="8323446061" visible="true" version="1" changeset="97535494" timestamp="2021-01-15T06:37:58Z" user="shai_k" uid="11659053" lat="16.0681552" lon="108.2183830"/>
+ <node id="8323446062" visible="true" version="1" changeset="97535494" timestamp="2021-01-15T06:37:58Z" user="shai_k" uid="11659053" lat="16.0677267" lon="108.2184380"/>
+ <node id="8323446063" visible="true" version="1" changeset="97535494" timestamp="2021-01-15T06:37:58Z" user="shai_k" uid="11659053" lat="16.0676887" lon="108.2184467"/>
+ <node id="8323446064" visible="true" version="1" changeset="97535494" timestamp="2021-01-15T06:37:58Z" user="shai_k" uid="11659053" lat="16.0676442" lon="108.2184454"/>
+ <node id="8323446065" visible="true" version="1" changeset="97535494" timestamp="2021-01-15T06:37:58Z" user="shai_k" uid="11659053" lat="16.0675914" lon="108.2184360"/>
+ <node id="8323446066" visible="true" version="1" changeset="97535494" timestamp="2021-01-15T06:37:58Z" user="shai_k" uid="11659053" lat="16.0675372" lon="108.2184186"/>
+ <node id="8323446067" visible="true" version="1" changeset="97535494" timestamp="2021-01-15T06:37:58Z" user="shai_k" uid="11659053" lat="16.0674573" lon="108.2184045"/>
+ <node id="8324492498" visible="true" version="1" changeset="97559399" timestamp="2021-01-15T12:46:38Z" user="Dom_meti" uid="12009556" lat="16.0684031" lon="108.2194603"/>
+ <way id="118567492" visible="true" version="7" changeset="71370159" timestamp="2019-06-18T15:11:42Z" user="Copernicus529" uid="9319354">
+  <nd ref="1333341502"/>
+  <nd ref="6555570446"/>
+  <nd ref="6555689179"/>
+  <nd ref="1333341536"/>
+  <nd ref="6555689178"/>
+  <nd ref="3760188241"/>
+  <nd ref="6522028105"/>
+  <nd ref="1333341541"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Đường Trần Kế Xương"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="372463005" visible="true" version="3" changeset="70938082" timestamp="2019-06-04T21:07:40Z" user="Copernicus529" uid="9319354">
+  <nd ref="3760188241"/>
+  <nd ref="3760188242"/>
+  <tag k="alt_name" v="Kiệt 23"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="highway" v="residential"/>
+  <tag k="moped" v="yes"/>
+  <tag k="motorcycle" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Đường Trần Kế Xương"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="372589038" visible="true" version="5" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354">
+  <nd ref="3761464385"/>
+  <nd ref="3761464386"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="highway" v="service"/>
+  <tag k="moped" v="yes"/>
+  <tag k="motorcycle" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Đường Hùng Vương"/>
+  <tag k="service" v="alley"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="372589039" visible="true" version="5" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354">
+  <nd ref="3761464387"/>
+  <nd ref="3761464388"/>
+  <nd ref="3761464389"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="highway" v="service"/>
+  <tag k="moped" v="yes"/>
+  <tag k="motorcycle" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Đường Hùng Vương"/>
+  <tag k="service" v="alley"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="399626766" visible="true" version="13" changeset="70957812" timestamp="2019-06-05T14:56:25Z" user="Copernicus529" uid="9319354">
+  <nd ref="1333303398"/>
+  <nd ref="6521975442"/>
+  <nd ref="4023430848"/>
+  <nd ref="3077384360"/>
+  <nd ref="6521956944"/>
+  <nd ref="3760188249"/>
+  <nd ref="6521956939"/>
+  <nd ref="1333303510"/>
+  <nd ref="1333341541"/>
+  <nd ref="6522028104"/>
+  <nd ref="6513743521"/>
+  <nd ref="1333303403"/>
+  <nd ref="6513743522"/>
+  <nd ref="6524644156"/>
+  <nd ref="6522028103"/>
+  <nd ref="1333315265"/>
+  <nd ref="6524722800"/>
+  <nd ref="6524686853"/>
+  <nd ref="3513922448"/>
+  <nd ref="6522028102"/>
+  <nd ref="6518486387"/>
+  <nd ref="420249151"/>
+  <nd ref="6518486389"/>
+  <nd ref="1333698971"/>
+  <nd ref="6518486385"/>
+  <nd ref="1333303420"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="2"/>
+  <tag k="name" v="Đường Ngô Gia Tự"/>
+  <tag k="oneway" v="no"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="408161669" visible="true" version="17" changeset="97559399" timestamp="2021-01-15T12:46:38Z" user="Dom_meti" uid="12009556">
+  <nd ref="420248835"/>
+  <nd ref="6518482568"/>
+  <nd ref="6038353335"/>
+  <nd ref="1333698950"/>
+  <nd ref="1334202697"/>
+  <nd ref="6518503914"/>
+  <nd ref="420248842"/>
+  <nd ref="6513555299"/>
+  <nd ref="6518525105"/>
+  <nd ref="6518536549"/>
+  <nd ref="1333303403"/>
+  <nd ref="6518536550"/>
+  <nd ref="3761464387"/>
+  <nd ref="8323446061"/>
+  <nd ref="3761464385"/>
+  <nd ref="6513728751"/>
+  <nd ref="420248971"/>
+  <nd ref="6513728749"/>
+  <nd ref="8324492498"/>
+  <nd ref="6513788365"/>
+  <nd ref="420248975"/>
+  <tag k="garmin_type" v="0x4"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="2"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Đường Hùng Vương"/>
+  <tag k="name:en" v="Hung Vuong Road"/>
+  <tag k="name:zh" v="雄王路"/>
+  <tag k="oneway" v="no"/>
+  <tag k="source" v="AsiaGPS"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="649964525" visible="true" version="2" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354">
+  <nd ref="6098715311"/>
+  <nd ref="6519061409"/>
+  <nd ref="6098715312"/>
+  <nd ref="6519061410"/>
+  <nd ref="6098715313"/>
+  <nd ref="6519061411"/>
+  <nd ref="6098715314"/>
+  <nd ref="6519061412"/>
+  <nd ref="6098715315"/>
+  <nd ref="6519061413"/>
+  <nd ref="6098715316"/>
+  <nd ref="6519061414"/>
+  <nd ref="6098715317"/>
+  <nd ref="6098715318"/>
+  <nd ref="6098715319"/>
+  <nd ref="6098715289"/>
+  <nd ref="6098715290"/>
+  <nd ref="6098715291"/>
+  <nd ref="6098715292"/>
+  <nd ref="6098715293"/>
+  <nd ref="6098715294"/>
+  <nd ref="6098715295"/>
+  <nd ref="6519061419"/>
+  <nd ref="6098715296"/>
+  <nd ref="6519061418"/>
+  <nd ref="6098715297"/>
+  <nd ref="6519061417"/>
+  <nd ref="6098715298"/>
+  <nd ref="6519061416"/>
+  <nd ref="6098715299"/>
+  <nd ref="6519061415"/>
+  <nd ref="6098715300"/>
+  <nd ref="6098715301"/>
+  <nd ref="6098715302"/>
+  <nd ref="6098715303"/>
+  <nd ref="6098715304"/>
+  <nd ref="6098715305"/>
+  <nd ref="6098715306"/>
+  <nd ref="6098715307"/>
+  <nd ref="6098715308"/>
+  <nd ref="6098715309"/>
+  <nd ref="6098715310"/>
+  <nd ref="6098715311"/>
+ </way>
+ <way id="693770489" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513555286"/>
+  <nd ref="6513539883"/>
+  <nd ref="6513539884"/>
+  <nd ref="6513555285"/>
+  <nd ref="6513555286"/>
+  <tag k="addr:housenumber" v="198"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="693770490" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513555290"/>
+  <nd ref="6513555287"/>
+  <nd ref="6513555288"/>
+  <nd ref="6513555289"/>
+  <nd ref="6513555290"/>
+  <tag k="addr:housenumber" v="204"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="693770491" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513555294"/>
+  <nd ref="6513555291"/>
+  <nd ref="6513555292"/>
+  <nd ref="6513555293"/>
+  <nd ref="6513555294"/>
+  <tag k="addr:housenumber" v="214"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="693770492" visible="true" version="1" changeset="70814118" timestamp="2019-05-31T16:01:45Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513555298"/>
+  <nd ref="6513555297"/>
+  <nd ref="6513555296"/>
+  <nd ref="6513555295"/>
+  <nd ref="6513555298"/>
+  <tag k="addr:housenumber" v="216"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="693771460" visible="true" version="1" changeset="70814245" timestamp="2019-05-31T16:05:11Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513545000"/>
+  <nd ref="6513544997"/>
+  <nd ref="6513544998"/>
+  <nd ref="6513544999"/>
+  <nd ref="6513545000"/>
+  <tag k="addr:housenumber" v="196"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="693782418" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513743512"/>
+  <nd ref="6513743509"/>
+  <nd ref="6513743510"/>
+  <nd ref="6513743511"/>
+  <nd ref="6513743512"/>
+  <tag k="addr:housenumber" v="172"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="693782419" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513743516"/>
+  <nd ref="6513743513"/>
+  <nd ref="6513743514"/>
+  <nd ref="6513743515"/>
+  <nd ref="6513743516"/>
+  <tag k="addr:housenumber" v="176"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="693782420" visible="true" version="1" changeset="70816234" timestamp="2019-05-31T17:05:10Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513743520"/>
+  <nd ref="6513743517"/>
+  <nd ref="6513743518"/>
+  <nd ref="6513743519"/>
+  <nd ref="6513743520"/>
+  <tag k="addr:housenumber" v="182"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="693782770" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513745691"/>
+  <nd ref="6513745688"/>
+  <nd ref="6513745689"/>
+  <nd ref="6513745690"/>
+  <nd ref="6513745691"/>
+  <tag k="addr:housenumber" v="154"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="693782771" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513745695"/>
+  <nd ref="6513745692"/>
+  <nd ref="6513745693"/>
+  <nd ref="6513745694"/>
+  <nd ref="6513745695"/>
+  <tag k="addr:housenumber" v="158"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="693782772" visible="true" version="1" changeset="70816335" timestamp="2019-05-31T17:08:50Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513745699"/>
+  <nd ref="6513745696"/>
+  <nd ref="6513745697"/>
+  <nd ref="6513745698"/>
+  <nd ref="6513745699"/>
+  <tag k="addr:housenumber" v="166"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="693783132" visible="true" version="1" changeset="70816402" timestamp="2019-05-31T17:11:59Z" user="Copernicus529" uid="9319354">
+  <nd ref="6513728755"/>
+  <nd ref="6513728752"/>
+  <nd ref="6513728753"/>
+  <nd ref="6513728754"/>
+  <nd ref="6513728755"/>
+  <tag k="addr:housenumber" v="150"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="694342612" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354">
+  <nd ref="6518922610"/>
+  <nd ref="6518922609"/>
+  <nd ref="6518922608"/>
+  <nd ref="6518922607"/>
+  <nd ref="6518922610"/>
+  <tag k="addr:housenumber" v="121"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="694342613" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354">
+  <nd ref="6518922614"/>
+  <nd ref="6518922613"/>
+  <nd ref="6518922612"/>
+  <nd ref="6518922611"/>
+  <nd ref="6518922614"/>
+  <tag k="addr:housenumber" v="125"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="694342614" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354">
+  <nd ref="6518922618"/>
+  <nd ref="6518922615"/>
+  <nd ref="6518922616"/>
+  <nd ref="6518922617"/>
+  <nd ref="6518922618"/>
+  <tag k="addr:housenumber" v="145"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="694342615" visible="true" version="1" changeset="70898831" timestamp="2019-06-03T19:51:10Z" user="Copernicus529" uid="9319354">
+  <nd ref="6518922622"/>
+  <nd ref="6518922619"/>
+  <nd ref="6518922620"/>
+  <nd ref="6518922621"/>
+  <nd ref="6518922622"/>
+  <tag k="addr:housenumber" v="149"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="694358387" visible="true" version="2" changeset="99528571" timestamp="2021-02-18T13:43:25Z" user="totim" uid="562188">
+  <nd ref="6519066506"/>
+  <nd ref="6519066502"/>
+  <nd ref="6519066500"/>
+  <nd ref="6519066499"/>
+  <nd ref="6519066501"/>
+  <nd ref="6519066503"/>
+  <nd ref="6519066504"/>
+  <nd ref="6519066497"/>
+  <nd ref="6519066496"/>
+  <nd ref="6519066495"/>
+  <nd ref="6519066498"/>
+  <nd ref="6519066505"/>
+  <nd ref="6519066506"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Trường Đại học Kỹ Thuật Y tế Đà Nẵng"/>
+ </way>
+ <way id="694358452" visible="true" version="1" changeset="70901463" timestamp="2019-06-03T21:36:43Z" user="Copernicus529" uid="9319354">
+  <nd ref="6519014833"/>
+  <nd ref="6519014830"/>
+  <nd ref="6519014831"/>
+  <nd ref="6519014832"/>
+  <nd ref="6519014833"/>
+  <tag k="addr:street" v="Đường Hùng Vương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="694721487" visible="true" version="1" changeset="70955833" timestamp="2019-06-05T14:02:04Z" user="Copernicus529" uid="9319354">
+  <nd ref="6524343072"/>
+  <nd ref="6524343069"/>
+  <nd ref="6524343070"/>
+  <nd ref="6524343071"/>
+  <nd ref="6524343072"/>
+  <tag k="addr:housenumber" v="3"/>
+  <tag k="addr:street" v="Đường Trần Kế Xương"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="694738537" visible="true" version="1" changeset="70957371" timestamp="2019-06-05T14:45:03Z" user="Copernicus529" uid="9319354">
+  <nd ref="6524688290"/>
+  <nd ref="6524688287"/>
+  <nd ref="6524688288"/>
+  <nd ref="6524688289"/>
+  <nd ref="6524688290"/>
+  <tag k="addr:housenumber" v="79"/>
+  <tag k="addr:street" v="Đường Ngô Gia Tự"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="694738538" visible="true" version="1" changeset="70957371" timestamp="2019-06-05T14:45:03Z" user="Copernicus529" uid="9319354">
+  <nd ref="6524688294"/>
+  <nd ref="6524688293"/>
+  <nd ref="6524688292"/>
+  <nd ref="6524688291"/>
+  <nd ref="6524688294"/>
+  <tag k="addr:housenumber" v="111"/>
+  <tag k="addr:street" v="Đường Ngô Gia Tự"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="694739342" visible="true" version="1" changeset="70957452" timestamp="2019-06-05T14:47:08Z" user="Copernicus529" uid="9319354">
+  <nd ref="6524665622"/>
+  <nd ref="6524665621"/>
+  <nd ref="6524665620"/>
+  <nd ref="6524665619"/>
+  <nd ref="6524665622"/>
+  <tag k="addr:housenumber" v="61"/>
+  <tag k="addr:street" v="Đường Ngô Gia Tự"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="694739343" visible="true" version="1" changeset="70957452" timestamp="2019-06-05T14:47:08Z" user="Copernicus529" uid="9319354">
+  <nd ref="6524665626"/>
+  <nd ref="6524665623"/>
+  <nd ref="6524665624"/>
+  <nd ref="6524665625"/>
+  <nd ref="6524665626"/>
+  <tag k="addr:housenumber" v="63"/>
+  <tag k="addr:street" v="Đường Ngô Gia Tự"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="895432183" visible="true" version="1" changeset="97535494" timestamp="2021-01-15T06:37:58Z" user="shai_k" uid="11659053">
+  <nd ref="8323446067"/>
+  <nd ref="8323446066"/>
+  <nd ref="8323446065"/>
+  <nd ref="8323446064"/>
+  <nd ref="8323446063"/>
+  <nd ref="8323446062"/>
+  <nd ref="8323446061"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <relation id="9054304" visible="true" version="3" changeset="70901497" timestamp="2019-06-03T21:38:05Z" user="Copernicus529" uid="9319354">
+  <member type="way" ref="649964525" role="outer"/>
+  <member type="way" ref="649964529" role="inner"/>
+  <tag k="building" v="stadium"/>
+  <tag k="type" v="multipolygon"/>
+ </relation>
+</osm>
