@@ -1,6 +1,6 @@
 
 
-# HUONG DAN 
+# Hướng dẫn cách import map từ openstreetmap vào SUMO simulation và tương tác điều chỉnh luồng giao thông thủ công 
 
 
 ## Xây dựng SUMO traffic với luồng giao thông random
@@ -21,7 +21,7 @@ VD: python /home/tdinh/Documents/Project/sumo/tools/randomTrips.py -n danang.net
 Bước 4: tạo file SUMO configuration (.sumocfg)
 
 Mẫu:
-
+```angular2html
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -42,6 +42,8 @@ Mẫu:
 
 </configuration>
 
+```
+
 
 
 Nhớ thay đổi tên <net-file> và <route-file> cho đúng với các file output của 2 bước trên
@@ -53,7 +55,7 @@ Bước 0: chuẩn bị file .net.xml (tương ứng với bước số 2 ở tr
 
 Bước 1: Viết một file TAZ (Traffic Analysis zone) (name_file.taz.xml) theo mẫu 
 
-```
+```angular2html
 <?xml version="1.0" encoding="UTF-8"?>
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
@@ -81,7 +83,7 @@ Bản chất của bước này là định vị các con đường ta muốn t�
 
 Bước 3: Viết file OD (Origine-Destination) Matrix file (name_file.od) theo mẫu 
 
-```
+```angular2html
 $O;D2
 * From-Time  To-Time
 0.00 1.00
@@ -109,7 +111,7 @@ VD 1 2 200 có nghĩa: có 200 xe đi từ edge có id 1 đen đến edge có id
 Bước 4: Tạo 1 file config chứa thông tin ra file ở bước 2 và bước 3 (name_file.config.xml) theo mẫu
 
 
-```
+```angular2html
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -135,9 +137,9 @@ od2trips -c od2trips.config.xml -n taz_file.taz.xml -d OD_file.od -o od_file.odt
 
 chú ý od2trips sử dụng 3 file ở trên. Output file là od_file.odtrips.xml
 
-Bước 6: Tạo file duarcfg_file (name_file.tríp2routes.duarcfg) theo mẫu 
+Bước 6: Tạo file duarcfg_file (name_file.trips2routes.duarcfg) theo mẫu 
 
-```
+```angular2html
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -159,17 +161,17 @@ Bước 6: Tạo file duarcfg_file (name_file.tríp2routes.duarcfg) theo mẫu
 </configuration>
 ```
 
-File này sử dung 2 file nhỏ: net-file và route-file sinh ra từ bước 6
+File này sử dụng 2 file nhỏ: net-file và route-file sinh ra từ bước 6
 
 Sau đó chạy lệnh sau, sẽ ra route file (name_file.rou.xml) (chú ý: tên của output file cũng được định nghĩa trong thẻ <output-file>)
 
-```
+```console
 duarouter -c duarcfg_file.trips2routes.duarcfg
 ```
 
 Bước 7: Tạo file config (.sumocfg)
 
-```
+```angular2html
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
