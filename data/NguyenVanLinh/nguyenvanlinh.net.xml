@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2021-06-02 09:42:55 by Eclipse SUMO netedit Version 1.9.2
+<!-- generated on 2021-06-02 16:40:27 by Eclipse SUMO netedit Version 1.9.2
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="/home/tdinh/Documents/Project/Traffic_light_control/data/NguyenVanLinh/nguyenvanlinh.net.xml"/>
+        <sumo-net-file value="data/NguyenVanLinh/nguyenvanlinh.net.xml"/>
     </input>
 
     <output>
-        <output-file value="/home/tdinh/Documents/Project/Traffic_light_control/data/NguyenVanLinh/nguyenvanlinh.net.xml"/>
+        <output-file value="data/NguyenVanLinh/nguyenvanlinh.net.xml"/>
     </output>
 
     <processing>
@@ -129,9 +129,9 @@
         <lane id=":6530229490_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="5.00" shape="159.38,827.04 154.43,826.30"/>
     </edge>
     <edge id=":6530229491_0" function="internal">
-        <lane id=":6530229491_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="5.00" shape="200.35,839.48 195.40,838.77"/>
-        <lane id=":6530229491_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="5.00" shape="200.80,836.32 195.86,835.61"/>
-        <lane id=":6530229491_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="5.00" shape="201.26,833.15 196.31,832.44"/>
+        <lane id=":6530229491_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="4.97" shape="200.30,839.49 195.40,838.77"/>
+        <lane id=":6530229491_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="4.97" shape="200.77,836.33 195.86,835.61"/>
+        <lane id=":6530229491_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="4.97" shape="201.25,833.16 196.31,832.44"/>
     </edge>
     <edge id=":6530229492_0" function="internal">
         <lane id=":6530229492_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="5.00" shape="198.03,820.81 202.97,821.59"/>
@@ -254,9 +254,9 @@
         <lane id="695446623#1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="50.37" shape="180.11,856.41 173.37,906.33"/>
     </edge>
     <edge id="695446624#0" from="6530229487" to="6530229491" priority="12" type="highway.primary" spreadType="center">
-        <lane id="695446624#0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="24.03" shape="224.13,842.91 200.35,839.48"/>
-        <lane id="695446624#0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="24.03" shape="224.59,839.74 200.80,836.32"/>
-        <lane id="695446624#0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="24.03" shape="225.05,836.57 201.26,833.15"/>
+        <lane id="695446624#0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="49.85" shape="249.61,846.87 200.30,839.49"/>
+        <lane id="695446624#0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="49.85" shape="250.08,843.71 200.77,836.33"/>
+        <lane id="695446624#0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="49.85" shape="250.55,840.55 201.25,833.16"/>
     </edge>
     <edge id="695446624#1" from="6530229491" to="cluster_2991819236_420249033" priority="12" type="highway.primary" spreadType="center" shape="198.46,835.98 181.58,833.56">
         <lane id="695446624#1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="27.78" length="3.92" shape="195.40,838.77 191.48,838.21"/>
@@ -307,6 +307,7 @@
         <phase duration="6"  state="rrrrryyyyyrrrrryyyyy"/>
     </tlLogic>
 
+
     <junction id="1333361924" type="priority" x="222.19" y="516.81" incLanes="-39368999#1_0 -39368999#1_1 39368999#0_0 39368999#0_1" intLanes=":1333361924_0_0 :1333361924_0_1 :1333361924_6_0 :1333361924_3_0 :1333361924_3_1 :1333361924_7_0" shape="228.53,517.69 215.90,515.64 215.87,515.82 228.46,518.08">
         <request index="0" response="000000" foes="100000" cont="0"/>
         <request index="1" response="000000" foes="100000" cont="0"/>
@@ -330,7 +331,7 @@
         <request index="2" response="0000" foes="0000" cont="0"/>
         <request index="3" response="0000" foes="0000" cont="0"/>
     </junction>
-    <junction id="6530229487" type="dead_end" x="224.59" y="839.74" incLanes="" intLanes="" shape="225.27,834.99 223.91,844.49"/>
+    <junction id="6530229487" type="dead_end" x="250.08" y="843.71" incLanes="" intLanes="" shape="250.79,838.96 249.37,848.46"/>
     <junction id="6530229488" type="priority" x="178.52" y="856.20" incLanes="695446623#0_0 695446623#0_1 -695446623#1_0 -695446623#1_1" intLanes=":6530229488_0_0 :6530229488_0_1 :6530229488_2_0 :6530229488_2_1" shape="184.86,857.06 172.18,855.34 184.86,857.06">
         <request index="0" response="0000" foes="0000" cont="0"/>
         <request index="1" response="0000" foes="0000" cont="0"/>
@@ -347,7 +348,7 @@
         <request index="1" response="000" foes="000" cont="0"/>
         <request index="2" response="000" foes="000" cont="0"/>
     </junction>
-    <junction id="6530229491" type="priority" x="198.46" y="835.98" incLanes="695446624#0_0 695446624#0_1 695446624#0_2 695446627_0" intLanes=":6530229491_0_0 :6530229491_0_1 :6530229491_0_2" shape="200.12,841.07 201.49,831.57 200.68,831.28 200.42,831.02 200.25,830.69 200.17,830.29 200.18,829.81 198.20,829.58 197.93,830.38 197.69,830.64 197.38,830.81 197.00,830.88 196.54,830.86 195.18,840.36">
+    <junction id="6530229491" type="priority" x="198.46" y="835.98" incLanes="695446624#0_0 695446624#0_1 695446624#0_2 695446627_0" intLanes=":6530229491_0_0 :6530229491_0_1 :6530229491_0_2" shape="200.06,841.07 201.49,831.58 200.68,831.28 200.42,831.03 200.25,830.69 200.17,830.29 200.18,829.81 198.20,829.58 197.93,830.38 197.69,830.64 197.38,830.81 197.00,830.88 196.54,830.86 195.18,840.36">
         <request index="0" response="000" foes="000" cont="0"/>
         <request index="1" response="000" foes="000" cont="0"/>
         <request index="2" response="000" foes="000" cont="0"/>

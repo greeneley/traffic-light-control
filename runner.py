@@ -26,6 +26,7 @@ import sys
 import optparse
 from VehicleCounter import VehicleCounter
 from LaneInfo import LaneInfo
+from simulator import Program
 from TrafficLight import TrafficLight
 # from ValueSingleTon import ValueSingleTon
 # we need to import python modules from the $SUMO_HOME/tools directory
@@ -84,7 +85,57 @@ GREEN_TIME_DEFAULT = 31
 CYCLE_TIME = 68
 
 
+def getInfoCurrentTrafficLight(traci, tlsID):
+
+    nameProgram = traci.trafficlight.getProgram(tlsID)
+    all_program_logics = traci.trafficlight.getAllProgramLogics(tlsID)
+
+    for _element in all_program_logics:
+        if _element.programID == nameProgram:
+            currentphase = _element
+            break
+
+    return currentphase
+
+def changeCycleTimeTrafficLightControl(traci, tlsID):
+    """
+    Input: Nhan vao traci mang thong tin chuong trinh tin hieu hien tai
+    Output: mot chuong trinh tin hieu moi bao gom:
+    """
+
+    """
+    Get INFO ve chuong trinh tin hieu hien tai
+    """
+
+    currentphase = getInfoCurrentTrafficLight(traci, tlsID)
+
+    """
+    Tao ra mot chuong trinh tin hieu moi
+    """
+
+
+
+    phases = []
+
+    for _element in currentphase.phases:
+        if _element.duration < 10:
+            phases.append(traci.trafficlight.Phase(duration=_element.duration, state=_element.state))
+        else:
+            phases.append(traci.trafficlight.Phase(duration=_element.duration*0.75, state=_element.state))
+    newProgram = traci.trafficlight.Logic(tlsID, 0, 0, phases)
+
+    return newProgram
+    #
+    # phases.append(traci.trafficlight.Phase(GREEN_TIME, "GrGr"))
+    # phases.append(traci.trafficlight.Phase(3, "yryr"))
+    # phases.append(traci.trafficlight.Phase(GREEN_TIME, "rGrG"))
+    # phases.append(traci.trafficlight.Phase(3, "ryry"))
+    # logic = traci.trafficlight.Logic("0", 0, 0, phases)
+    #
+    # return logic
+
 def getDensityValue(VehicleCounter, LaneInfo):
+
     return (0.25*VehicleCounter.motocycle_count + 1*VehicleCounter.car_count + 3*VehicleCounter.bus_count + 2.5*VehicleCounter.truck_count)/(LaneInfo.number_lane * LaneInfo.length * LaneInfo.width)
 
 def getDensityClass(vehicleCounter, laneInfo):
@@ -92,15 +143,16 @@ def getDensityClass(vehicleCounter, laneInfo):
     Phan loai Density cua giao lo
     """
     densityValue = getDensityValue(vehicleCounter, laneInfo)
-    if densityValue < 11:
+    print(densityValue)
+    if densityValue < 0.05:
         return "A"
-    elif densityValue < 18:
+    elif densityValue < 0.9:
         return "B"
-    elif densityValue < 26:
+    elif densityValue < 1.3:
         return "C"
-    elif densityValue < 35:
+    elif densityValue < 1.75:
         return "D"
-    elif densityValue < 45:
+    elif densityValue < 2.25:
         return "E"
     else:
         return "F"
@@ -114,7 +166,7 @@ def run():
     # traci.edge.getLastStepVehicelNumber: lay all vehicle tren 1 edge
     # traci.lanearea.getLastStepVehicleNumber: count vehicle tren 1 detector
     """execute the TraCI control loop"""
-    step = 0
+    step = 1
     # phases = []
     # phases.append(traci.trafficlight.Phase(GREEN_TIME, "GrGr"))
     # phases.append(traci.trafficlight.Phase(3, "yryr"))
@@ -133,12 +185,55 @@ def run():
     while traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep()
 
+
+
+        """
+        MODULE 1: TIME OF DAY
+        DONE: DA DUOC THIET LAP TRONG TRAFFIC_LIGHT
+        """
+        # draftPrograms = []
+        # draftPrograms.append(changeCycleTimeTrafficLightControl(traci, tlsID="gneJ0"))
+
+        # changeCycleTimeTrafficLightControl(traci, tlsID="gneJ0")
+
+        """
+        MODULE 2: DANH GIA TINH TRANG GIAO THONG
+        """
         if (step % CYCLE_TIME == 0):
+            draftPrograms = []
             print(f"""KET THUC CHU KY TIN HIEU: KIEM TRA TINH TRANG GIAO THONG""")
+
+            """
+            MODULE 2.1: Danh gia toan phan
+            """
+
             laneInfo = LaneInfo(number_lane=11)
             vehicleCount = VehicleCounter(traci)
+            vehicleCount.getVehicleCount()
             densityClass = getDensityClass(vehicleCount, laneInfo)
-            print(f"DENSITYCLASS: {densityClass}")
+            print(f"STEP: {step}, Density class: {densityClass}")
+
+            draftPrograms.append(changeCycleTimeTrafficLightControl(traci, tlsID="gneJ0"))
+
+            # if densityClass == "D" or densityClass == "E" or densityClass == "F":
+            #      draftPrograms.append(changeCycleTimeTrafficLightControl(traci, tlsID="gneJ0"))
+
+            simulator = Program(draftPrograms)
+            simulator.run()
+
+
+        """
+        MODULE 2.2: Danh gia rieng phan
+        """
+
+        """
+        MODULE 3: THUC HIEN SIMULATOR CHO TUNG QUYET DINH
+        """
+
+        """
+        MODULE 4: CAP NHAT CHUONG TRINH DIEU KHIEN TIN HIEU PHU HOP
+        """
+
         # tLight = TrafficLight(traci, GREEN_TIME_DEFAULT, scale=1.0)
         # count_number = len(traci.vehicle.getIDList())
         # print("Tong so phuong tien hien tai: {}".format(len(traci.vehicle.getIDList())))
@@ -250,6 +345,6 @@ if __name__ == "__main__":
     # traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg",
     #                          "--tripinfo-output", "tripinfo.xml",
     #                         "--fcd-output", "sumoTrace.xml"])
-    traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg", "--summary", "output/" + fileOutputSummary])
+    traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg", "--start", "--delay", "50", "--summary", "output/" + fileOutputSummary])
     run()
 
