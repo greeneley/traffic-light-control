@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-06-04 16:16:44 by Eclipse SUMO GUI Version 1.9.2
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="data/NguyenVanLinh/nguyenvanlinh.net.xml"/>
+        <route-files value="data/NguyenVanLinh/nvl.odtrips.rou.xml"/>
+        <additional-files value="data/NguyenVanLinh/traffic_light.add.xml,data/NguyenVanLinh/detectors.add.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="output/sumoSummary_01.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="86400"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="51579"/>
+    </traci_server>
+
+    <gui_only>
+        <start value="true"/>
+        <delay value="50"/>
+    </gui_only>
+
+</configuration>

@@ -55,8 +55,9 @@
     </tlLogic>
 
     <WAUT startProg="0" id="w1">
-        <wautSwitch to="night" time="0"/>
-        <wautSwitch to="morning" time="1500"/>
+        <wautSwitch to="morning" time="0"/>
+        <wautSwitch to="night" time="1500"/>
 	</WAUT>
     <wautJunction junctionID="gneJ0" wautID="w1"/>
+
 </additional>

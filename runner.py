@@ -27,7 +27,6 @@ import optparse
 from VehicleCounter import VehicleCounter
 from LaneInfo import LaneInfo
 from simulator import Program
-from TrafficLight import TrafficLight
 # from ValueSingleTon import ValueSingleTon
 # we need to import python modules from the $SUMO_HOME/tools directory
 if 'SUMO_HOME' in os.environ:
@@ -35,7 +34,6 @@ if 'SUMO_HOME' in os.environ:
     sys.path.append(tools)
 else:
     sys.exit("please declare environment variable 'SUMO_HOME'")
-
 from sumolib import checkBinary  # noqa
 import traci  # noqa
 
@@ -85,10 +83,19 @@ GREEN_TIME_DEFAULT = 31
 CYCLE_TIME = 68
 
 
+
+def getVehicleCountInDetector(traci, detectors):
+    count = 0
+    for _element in detectors:
+        count += traci.lanearea.getLastStepVehicleNumber(_element)
+    return count
+
 def getInfoCurrentTrafficLight(traci, tlsID):
 
     nameProgram = traci.trafficlight.getProgram(tlsID)
     all_program_logics = traci.trafficlight.getAllProgramLogics(tlsID)
+
+    currentphase = None
 
     for _element in all_program_logics:
         if _element.programID == nameProgram:
@@ -97,26 +104,91 @@ def getInfoCurrentTrafficLight(traci, tlsID):
 
     return currentphase
 
+def changeGreenTimeTrafficLightControlForEachLanes(traci, tlsID, density_level):
+
+    currentphase = getInfoCurrentTrafficLight(traci, tlsID)
+
+    thoigianbutru = 0
+
+    phases = []
+
+    count = 0
+
+    for _element in currentphase.phases:
+        if _element.duration < 10:
+            continue
+        else:
+            if density_level[currentphase.phases.index(_element)] == "B":
+                thoigianbutru += _element.duration * 0.5
+                count += 1
+
+            elif density_level[currentphase.phases.index(_element)] == "C":
+                thoigianbutru += _element.duration * 0.7
+                count += 1
+
+            elif density_level[currentphase.phases.index(_element)] == "D":
+                thoigianbutru += _element.duration * 0.3
+                count += 1
+
+            elif density_level[currentphase.phases.index(_element)] == "E":
+                thoigianbutru += _element.duration * 0.4
+                count += 1
+
+    for _element in currentphase.phases:
+        if _element.duration < 10:
+            phases.append(traci.trafficlight.Phase(duration=_element.duration, state=_element.state))
+        else:
+            if density_level[currentphase.phases.index(_element)] == "B":
+                phases.append(traci.trafficlight.Phase(duration=_element.duration * (1 - 0.5), state=_element.state))
+
+            elif density_level[currentphase.phases.index(_element)] == "C":
+                phases.append(traci.trafficlight.Phase(duration=_element.duration * (1 - 0.7), state=_element.state))
+
+            elif density_level[currentphase.phases.index(_element)] == "D":
+                phases.append(traci.trafficlight.Phase(duration=_element.duration * (1 - 0.3), state=_element.state))
+
+            elif density_level[currentphase.phases.index(_element)] == "E":
+                phases.append(traci.trafficlight.Phase(duration=_element.duration * (1 - 0.4), state=_element.state))
+
+            else:
+                phases.append(traci.trafficlight.Phase(duration=_element.duration + (thoigianbutru/count), state=_element.state))
+
+    newProgram = traci.trafficlight.Logic(tlsID, 0, 0, phases)
+    return newProgram
+
+def changeGreenTimeTrafficLightControl(traci, tlsID, density_level):
+
+    currentphase = getInfoCurrentTrafficLight(traci, tlsID)
+
+    phases = []
+
+    K = 0
+
+    if density_level == "B":
+        K = 0.5
+    elif density_level == "C":
+        K = 0.7
+    elif density_level == "D":
+        K = 0.3
+    elif density_level == "E":
+        K = 0.4
+
+    for _element in currentphase.phases:
+        if _element.duration < 10:
+            phases.append(traci.trafficlight.Phase(duration=_element.duration, state=_element.state))
+        else:
+            newDuration = _element.duration * (1 - K)
+            phases.append(traci.trafficlight.Phase(duration=newDuration - 5, state=_element.state))
+    newProgram = traci.trafficlight.Logic(tlsID, 0, 0, phases)
+    return newProgram
+
 def changeCycleTimeTrafficLightControl(traci, tlsID):
     """
     Input: Nhan vao traci mang thong tin chuong trinh tin hieu hien tai
     Output: mot chuong trinh tin hieu moi bao gom:
     """
-
-    """
-    Get INFO ve chuong trinh tin hieu hien tai
-    """
-
     currentphase = getInfoCurrentTrafficLight(traci, tlsID)
-
-    """
-    Tao ra mot chuong trinh tin hieu moi
-    """
-
-
-
     phases = []
-
     for _element in currentphase.phases:
         if _element.duration < 10:
             phases.append(traci.trafficlight.Phase(duration=_element.duration, state=_element.state))
@@ -162,11 +234,21 @@ def average_speed(speedList):
         return sum(speedList) / len(speedList)
 
 def run():
-
+    traci.switch("sim1")
     # traci.edge.getLastStepVehicelNumber: lay all vehicle tren 1 edge
     # traci.lanearea.getLastStepVehicleNumber: count vehicle tren 1 detector
     """execute the TraCI control loop"""
     step = 1
+
+
+    # NORTH_DETECTOR = ["e2det_gneE2_0", "e2det_gneE2_1"]
+    # SOUTH_DETECTOR = ["e2det_-695429325#0_1", "e2det_-695429325#0_0"]
+    # WEST_DETECTOR = ["e2det_695504114#2_0", "e2det_695504114#2_1", "e2det_695504114#2_2"]
+    # EAST_DETECTOR = ["e2det_695446624#1_2", "e2det_695446624#1_1", "e2det_695446624#1_0"]
+
+    NS_DETECTOR = ["e2det_-695446623#0_1", "e2det_-695446623#0_0", "e2det_-695429325#0_1", "e2det_-695429325#0_0"]
+    WE_DETECTOR = ["e2det_695504114#2_0", "e2det_695504114#2_1", "e2det_695504114#2_2","e2det_695446624#1_2", "e2det_695446624#1_1", "e2det_695446624#1_0"]
+
     # phases = []
     # phases.append(traci.trafficlight.Phase(GREEN_TIME, "GrGr"))
     # phases.append(traci.trafficlight.Phase(3, "yryr"))
@@ -182,7 +264,7 @@ def run():
     # global CYCLE_TIME
     # laneInfo = LaneInfo()
 
-    while traci.simulation.getMinExpectedNumber() > 0:
+    while step < 8400 or traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep()
 
 
@@ -199,12 +281,43 @@ def run():
         """
         MODULE 2: DANH GIA TINH TRANG GIAO THONG
         """
+
+        draftPrograms = []
+
         if (step % CYCLE_TIME == 0):
-            draftPrograms = []
+
             print(f"""KET THUC CHU KY TIN HIEU: KIEM TRA TINH TRANG GIAO THONG""")
 
             """
             MODULE 2.1: Danh gia toan phan
+            """
+
+            # draftPrograms.append(changeGreenTimeTrafficLightControlForEachLanes(traci, tlsID="gneJ0"))
+
+            laneInfo_NS = LaneInfo(number_lane=len(NS_DETECTOR))
+            vehicleCount_NS = VehicleCounter(traci)
+            vehicleCount_NS.getVehicleCountInDetector(NS_DETECTOR)
+            densityClass_NS = getDensityClass(vehicleCount_NS, laneInfo_NS)
+            print(f"STEP: {step}, Density class: {densityClass_NS}")
+
+            laneInfo_WE = LaneInfo(number_lane=len(WE_DETECTOR))
+            vehicleCount_WE = VehicleCounter(traci)
+            vehicleCount_WE.getVehicleCountInDetector(WE_DETECTOR)
+            densityClass_WE = getDensityClass(vehicleCount_WE, laneInfo_WE)
+            print(f"STEP: {step}, Density class: {densityClass_WE}")
+
+            densityClass_NS = "B"
+            densityClass_WE = "D"
+            draftPrograms.append(changeGreenTimeTrafficLightControlForEachLanes(traci, tlsID="gneJ0", density_level=[densityClass_NS,densityClass_NS,densityClass_WE,densityClass_WE]))
+
+            # if densityClass == "D" or densityClass == "E" or densityClass == "F":
+            #     draftPrograms.append(changeCycleTimeTrafficLightControl(traci, tlsID="gneJ0"))
+            #     draftPrograms.append(changeGreenTimeTrafficLightControl(traci, tlsID="gneJ0"))
+
+
+
+            """
+            MODULE 2.2: Danh gia rieng phan
             """
 
             laneInfo = LaneInfo(number_lane=11)
@@ -212,15 +325,6 @@ def run():
             vehicleCount.getVehicleCount()
             densityClass = getDensityClass(vehicleCount, laneInfo)
             print(f"STEP: {step}, Density class: {densityClass}")
-
-            draftPrograms.append(changeCycleTimeTrafficLightControl(traci, tlsID="gneJ0"))
-
-            # if densityClass == "D" or densityClass == "E" or densityClass == "F":
-            #      draftPrograms.append(changeCycleTimeTrafficLightControl(traci, tlsID="gneJ0"))
-
-            simulator = Program(draftPrograms)
-            simulator.run()
-
 
         """
         MODULE 2.2: Danh gia rieng phan
@@ -234,90 +338,15 @@ def run():
         MODULE 4: CAP NHAT CHUONG TRINH DIEU KHIEN TIN HIEU PHU HOP
         """
 
-        # tLight = TrafficLight(traci, GREEN_TIME_DEFAULT, scale=1.0)
-        # count_number = len(traci.vehicle.getIDList())
-        # print("Tong so phuong tien hien tai: {}".format(len(traci.vehicle.getIDList())))
-        # # global_density_level = density_class(count_number)
-        # # print("Muc do : {}".format(global_density_level))
-        #
-        # speed_vehicle = [float(traci.vehicle.getSpeed(_vehicleID)) for _vehicleID in traci.vehicle.getIDList()]
-        # # print(speed_vehicle)
-        # print("Average Speed: {}".format(average_speed(speed_vehicle)))
-        #
-        # if step % CYCLE_TIME == 0:
-        #     print(f"""KET THUC CHU KY TIN HIEU: KIEM TRA TINH TRANG GIAO THONG""")
-        #     global_density_level = density_class(count_number)
-        #     print("Muc do density: {}".format(global_density_level))
-        #
-        #     if global_density_level == "B":
-        #         # if not tLight.isChangeTemporary:
-        #         print(f"""Change cycle time""")
-        #         # tLight.setScale(0.5)
-        #         tLight.setNewRedYellowGreen(1.25)
-        #         count = 0
-        #         while (count < (CYCLE_TIME - 3*2)*1.25*5):
-        #             traci.simulationStep()
-        #             count_number = len(traci.vehicle.getIDList())
-        #             print("Tong so phuong tien hien tai tai nut giao thong: {}".format(len(traci.vehicle.getIDList())))
-        #             global_density_level = density_class(count_number)
-        #             print("level: {}".format(global_density_level))
-        #             # print(f"""COUNT: {count}; STEP: {step}""")
-        #             step += 1
-        #             count += 1
-        #             speed_vehicle = [float(traci.vehicle.getSpeed(_vehicleID)) for _vehicleID in traci.vehicle.getIDList()]
-        #             print("Average Speed: {}".format(average_speed(speed_vehicle)))
-        #             continue
-        #         else:
-        #             tLight.setNewRedYellowGreen(1.0)
-        #
-        #     if global_density_level == "F":
-        #         # if not tLight.isChangeTemporary:
-        #         print(f"""
-        #             Change cycle time
-        #         """)
-        #         # tLight.setScale(0.5)
-        #         tLight.setNewRedYellowGreen(0.75)
-        #         count = 0
-        #         while (count < (CYCLE_TIME - 3*2)*0.75*5):
-        #             traci.simulationStep()
-        #             count_number = len(traci.vehicle.getIDList())
-        #             print("Tong so phuong tien hien tai: {}".format(len(traci.vehicle.getIDList())))
-        #             global_density_level = density_class(count_number)
-        #             print("level: {}".format(global_density_level))
-        #             print(f"""COUNT: {count}; STEP: {step}""")
-        #             step += 1
-        #             count += 1
-        #             continue
-        #         else:
-        #             tLight.setNewRedYellowGreen(1.0)
-        #
-        # if tLight.isChangeTemporary == True:
-        #     print(f"""
-        #     step change: {_step_change}
-        #     """)
-        #     if (step - _step_change > 15):
-        #         print("RESET")
-        #         # tLight.setBackChange()
-        #         tLight.setNewRedYellowGreen(1.0)
-        #         tLight.setIsChangeTemporary(False)
+        if len(draftPrograms) > 0:
+            simulator = Program(draftPrograms)
+            simulator.run()
 
-        #     print("Chu ky duoc reset")
-        #     reset()
-            # setScaleCycleTime(GREEN_TIME=31)
-            # traci.trafficlight.setPhase("0", 2)
-        # if step == 138:
-        #     traci.trafficlight.setProgram("0", "0")
+            bestProgram = simulator.getBestProgram()
 
-        # if step == 50:
-        #     traci.trafficlight.setPhase("1", 2)
-       # if traci.trafficlight.getPhase("0") == 2:
-       #      # we are not already switching
-       #      if traci.inductionloop.getLastStepVehicleNumber("0") > 0:
-       #          # there is a vehicle from the north, switch
-       #          traci.trafficlight.setPhase("0", 3)
-       #      else:
-       #          # otherwise try to keep green for EW
-       #          traci.trafficlight.setPhase("0", 2)
+            traci.trafficlight.setCompleteRedYellowGreenDefinition("gneJ0", bestProgram)
+            traci.switch("sim1")
+
         step += 1
     traci.close()
     sys.stdout.flush()
@@ -345,6 +374,6 @@ if __name__ == "__main__":
     # traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg",
     #                          "--tripinfo-output", "tripinfo.xml",
     #                         "--fcd-output", "sumoTrace.xml"])
-    traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg", "--start", "--delay", "50", "--summary", "output/" + fileOutputSummary])
+    traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg", "--start", "--delay", "50", "--summary", "output/" + fileOutputSummary], label="sim1")
     run()
 

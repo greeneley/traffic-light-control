@@ -30,3 +30,7 @@ class VehicleCounter():
 
     def getVehicleCount(self):
         self.car_count = len(self.traci.vehicle.getIDList())
+
+    def getVehicleCountInDetector(self, detectors):
+        for _element in detectors:
+            self.car_count += self.traci.lanearea.getLastStepVehicleNumber(_element)

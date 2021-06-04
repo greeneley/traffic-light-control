@@ -17,10 +17,10 @@
 # @author  Michael Behrisch
 # @author  Jakob Erdmann
 # @date    2009-03-26
-
 from __future__ import absolute_import
 from __future__ import print_function
 
+import operator
 import os
 import sys
 import optparse
@@ -34,8 +34,7 @@ else:
 
 from sumolib import checkBinary  # noqa
 import traci  # noqa
-
-
+import pandas as pd
 
 def get_options():
     optParser = optparse.OptionParser()
@@ -54,16 +53,37 @@ class Program:
 
         options = get_options()
 
-        sumoBinary = checkBinary('sumo' if options.nogui else 'sumo-gui')
-        print(sumoBinary)
-        traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg", "--start", "--delay", "50", "--summary",
-                     "output/" + fileOutputSummary], label="test")
+        sumoBinary = checkBinary('sumo-gui' if options.nogui else 'sumo')
         for _element in self._programs:
-            step = 1
+            index = self._programs.index(_element)
+            step_time = 1
+            traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg", "-b", "0", "-e", "3600",
+                         "--quit-on-end", "--start",
+                         "--summary",
+                         "output/sumoSummary_" + str(index) + ".xml"], label="sim2")
+            # traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg", "--delay", "50", "-b", "0", "-e", "3600",
+            #              "--quit-on-end", "--start",
+            #              "--summary",
+            #              "output/sumoSummary_" + str(index) + ".xml"], label="sim2")
+            traci.switch("sim2")
             traci.trafficlight.setCompleteRedYellowGreenDefinition("gneJ0", _element)
-            while traci.simulation.getMinExpectedNumber() > 0:
+            while step_time < 3600 or traci.simulation.getMinExpectedNumber() > 0:
                 traci.simulationStep()
-                step += 1
+                step_time += 1
             traci.close()
-            # sys.stdout.flush()
+        traci.switch("sim1")
+
+        # sys.stdout.flush()
+
+    def getBestProgram(self):
+        results = {}
+        for _element in self._programs:
+            index = self._programs.index(_element)
+            fileSummary = pd.read_csv("output/sumoSummary_" + str(index) + ".csv", sep=";")
+            speed = fileSummary["step_meanSpeed"].mean()
+            results[index] = speed
+        highest_value = max(results.items(), key=operator.itemgetter(1))[0]
+        return self._programs[highest_value]
+
+
 
