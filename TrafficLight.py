@@ -15,7 +15,6 @@ class TrafficLight:
         self.scale = scale
 
 
-
     def setNewRedYellowGreen(self, scale):
         phases = []
         phases.append(self.traci.trafficlight.Phase(self.green_time * scale, "GrGr"))

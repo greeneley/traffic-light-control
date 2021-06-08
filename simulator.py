@@ -35,6 +35,7 @@ else:
 from sumolib import checkBinary  # noqa
 import traci  # noqa
 import pandas as pd
+import subprocess
 
 def get_options():
     optParser = optparse.OptionParser()
@@ -58,7 +59,7 @@ class Program:
             index = self._programs.index(_element)
             step_time = 1
             traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg", "-b", "0", "-e", "3600",
-                         "--quit-on-end", "--start",
+                         "--quit-on-end", "--start", "--no-warnings",
                          "--summary",
                          "output/sumoSummary_" + str(index) + ".xml"], label="sim2")
             # traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg", "--delay", "50", "-b", "0", "-e", "3600",
@@ -67,10 +68,12 @@ class Program:
             #              "output/sumoSummary_" + str(index) + ".xml"], label="sim2")
             traci.switch("sim2")
             traci.trafficlight.setCompleteRedYellowGreenDefinition("gneJ0", _element)
-            while step_time < 3600 or traci.simulation.getMinExpectedNumber() > 0:
+            while step_time < 1000:
                 traci.simulationStep()
                 step_time += 1
             traci.close()
+            subprocess.run(f"python /home/tdinh/Documents/Project/sumo/tools/xml/xml2csv.py output/sumoSummary_{str(index)}.xml", shell=True)
+
         traci.switch("sim1")
 
         # sys.stdout.flush()
