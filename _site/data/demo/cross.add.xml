@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-05-26 15:23:13 by Eclipse SUMO netedit Version 1.9.2
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="data/cross.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="data/cross.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="0"/>
+        <junctions.limit-turn-speed value="-1"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/tdinh/Documents/Project/Traffic_light_control/data/cross.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e1Detector id="0" lane="4i_0" pos="450.00" freq="30.00" file="cross.out" friendlyPos="1"/>
+    <e2Detector id="e2Detector_1i_0_0" lane="1i_0" pos="425.72" length="69.27" freq="900.00" file="e2Detector_1i_0_0.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_4i_0_1" lane="4i_0" pos="454.11" length="40.00" freq="900.00" file="e2Detector_4i_0_1.xml"/>
+</additional>

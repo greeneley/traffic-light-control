@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.3 (972002 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="16.0591800" minlon="108.2102700" maxlat="16.0606000" maxlon="108.2120400"/>
+ <node id="420248485" visible="true" version="5" changeset="71336289" timestamp="2019-06-17T16:36:31Z" user="Gr8fulDead" uid="9414390" lat="16.0547006" lon="108.2120177">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="420249033" visible="true" version="9" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590" lat="16.0598717" lon="108.2111398"/>
+ <node id="420249078" visible="true" version="4" changeset="31094093" timestamp="2015-05-13T09:59:45Z" user="totim" uid="562188" lat="16.0544622" lon="108.2118688"/>
+ <node id="420249080" visible="true" version="6" changeset="71336289" timestamp="2019-06-17T16:36:31Z" user="Gr8fulDead" uid="9414390" lat="16.0524421" lon="108.2104718"/>
+ <node id="420249081" visible="true" version="4" changeset="30847269" timestamp="2015-05-06T16:14:00Z" user="totim" uid="562188" lat="16.0591525" lon="108.2112331"/>
+ <node id="728153331" visible="true" version="3" changeset="34226133" timestamp="2015-09-24T13:30:58Z" user="totim" uid="562188" lat="16.0601076" lon="108.2112743">
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="Abbank - ATM"/>
+ </node>
+ <node id="728153393" visible="true" version="1" changeset="4655728" timestamp="2010-05-10T03:12:42Z" user="ninomax" uid="47976" lat="16.0596656" lon="108.2104718">
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="Agribank - ATM"/>
+ </node>
+ <node id="728153483" visible="true" version="2" changeset="31085184" timestamp="2015-05-13T07:26:30Z" user="totim" uid="562188" lat="16.0598369" lon="108.2119720">
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="Agribank - ATM"/>
+ </node>
+ <node id="728153646" visible="true" version="1" changeset="4655728" timestamp="2010-05-10T03:12:54Z" user="ninomax" uid="47976" lat="16.0593718" lon="108.2111263">
+  <tag k="amenity" v="atm"/>
+  <tag k="operator" v="Agribank - ATM"/>
+ </node>
+ <node id="1333333030" visible="true" version="4" changeset="70816810" timestamp="2019-05-31T17:26:13Z" user="Kaarti_B" uid="9029309" lat="16.0625339" lon="108.2116916"/>
+ <node id="1333333032" visible="true" version="6" changeset="34185188" timestamp="2015-09-22T14:45:28Z" user="totim" uid="562188" lat="16.0601218" lon="108.2120652"/>
+ <node id="1333333049" visible="true" version="2" changeset="30847269" timestamp="2015-05-06T16:14:00Z" user="totim" uid="562188" lat="16.0609049" lon="108.2119476"/>
+ <node id="1333361878" visible="true" version="3" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0573721" lon="108.2123101"/>
+ <node id="1333361881" visible="true" version="3" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0572327" lon="108.2120628"/>
+ <node id="1333361922" visible="true" version="4" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0580437" lon="108.2123765"/>
+ <node id="1333361924" visible="true" version="4" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0571235" lon="108.2115441"/>
+ <node id="1333361942" visible="true" version="4" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0588190" lon="108.2122722"/>
+ <node id="1333361951" visible="true" version="3" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0574937" lon="108.2124021"/>
+ <node id="1333361960" visible="true" version="4" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0579292" lon="108.2114082"/>
+ <node id="1333361973" visible="true" version="3" changeset="70816810" timestamp="2019-05-31T17:26:13Z" user="Kaarti_B" uid="9029309" lat="16.0626196" lon="108.2116838"/>
+ <node id="1333361983" visible="true" version="3" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0576705" lon="108.2124172"/>
+ <node id="1333361993" visible="true" version="3" changeset="31093945" timestamp="2015-05-13T09:57:06Z" user="totim" uid="562188" lat="16.0586987" lon="108.2112993"/>
+ <node id="1333394789" visible="true" version="5" changeset="34226133" timestamp="2015-09-24T13:30:58Z" user="totim" uid="562188" lat="16.0606327" lon="108.2110244"/>
+ <node id="1334198487" visible="true" version="3" changeset="71336289" timestamp="2019-06-17T16:36:32Z" user="Gr8fulDead" uid="9414390" lat="16.0550798" lon="108.2119266">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="1334198546" visible="true" version="3" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0572895" lon="108.2121921"/>
+ <node id="1334198615" visible="true" version="2" changeset="30847269" timestamp="2015-05-06T16:14:00Z" user="totim" uid="562188" lat="16.0563947" lon="108.2116955"/>
+ <node id="1334198672" visible="true" version="2" changeset="31085184" timestamp="2015-05-13T07:26:30Z" user="totim" uid="562188" lat="16.0596622" lon="108.2121322"/>
+ <node id="1334198791" visible="true" version="3" changeset="31446887" timestamp="2015-05-25T14:23:21Z" user="totim" uid="562188" lat="16.0572058" lon="108.2119417"/>
+ <node id="1616276760" visible="true" version="9" changeset="71141661" timestamp="2019-06-11T13:26:25Z" user="Kaarti_B" uid="9029309" lat="16.0603373" lon="108.2135954"/>
+ <node id="2991816832" visible="true" version="4" changeset="71001929" timestamp="2019-06-06T19:43:59Z" user="daFisch" uid="8759590" lat="16.0596330" lon="108.2094339"/>
+ <node id="2991819236" visible="true" version="6" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590" lat="16.0599787" lon="108.2111250"/>
+ <node id="2991819237" visible="true" version="3" changeset="34185188" timestamp="2015-09-22T14:45:28Z" user="totim" uid="562188" lat="16.0600277" lon="108.2120813"/>
+ <node id="3514033912" visible="true" version="1" changeset="31085184" timestamp="2015-05-13T07:26:29Z" user="totim" uid="562188" lat="16.0597467" lon="108.2103038"/>
+ <node id="3514033913" visible="true" version="1" changeset="31085184" timestamp="2015-05-13T07:26:29Z" user="totim" uid="562188" lat="16.0598470" lon="108.2102861"/>
+ <node id="3754596962" visible="true" version="1" changeset="34185188" timestamp="2015-09-22T14:45:28Z" user="totim" uid="562188" lat="16.0601849" lon="108.2124742"/>
+ <node id="4585476694" visible="true" version="2" changeset="71005528" timestamp="2019-06-06T22:51:44Z" user="daFisch" uid="8759590" lat="16.0596882" lon="108.2103144">
+  <tag k="amenity" v="restaurant"/>
+  <tag k="name:en" v="The Garden House"/>
+ </node>
+ <node id="4743893223" visible="true" version="1" changeset="46994105" timestamp="2017-03-19T21:26:58Z" user="TonikaXXL" uid="5516230" lat="16.0597418" lon="108.2113312">
+  <tag k="leisure" v="fitness_centre"/>
+  <tag k="name" v="California Fitness &amp; Spa"/>
+  <tag k="name:en" v="California Fitness &amp; Spa"/>
+  <tag k="name:ru" v="California Fitness &amp; Spa"/>
+  <tag k="name:vi" v="California Fitness &amp; Spa"/>
+ </node>
+ <node id="5095404521" visible="true" version="1" changeset="51913417" timestamp="2017-09-10T16:46:26Z" user="johjohjoh17" uid="6507570" lat="16.0597587" lon="108.2114600">
+  <tag k="amenity" v="post_office"/>
+ </node>
+ <node id="6038434662" visible="true" version="1" changeset="64185929" timestamp="2018-11-05T05:44:53Z" user="dee_ksha" uid="9035956" lat="16.0544060" lon="108.2118298"/>
+ <node id="6038434668" visible="true" version="2" changeset="71336289" timestamp="2019-06-17T16:36:32Z" user="Gr8fulDead" uid="9414390" lat="16.0537776" lon="108.2114123"/>
+ <node id="6045374212" visible="true" version="2" changeset="71004126" timestamp="2019-06-06T21:24:37Z" user="daFisch" uid="8759590" lat="16.0599317" lon="108.2120955">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6045383461" visible="true" version="2" changeset="71001276" timestamp="2019-06-06T19:18:16Z" user="daFisch" uid="8759590" lat="16.0597083" lon="108.2111610">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:direction" v="backward"/>
+ </node>
+ <node id="6045746964" visible="true" version="1" changeset="64285007" timestamp="2018-11-08T08:53:06Z" user="bha_rath" uid="9035975" lat="16.0569307" lon="108.2115817"/>
+ <node id="6512003603" visible="true" version="2" changeset="70785013" timestamp="2019-05-30T20:00:57Z" user="Kaarti_B" uid="9029309" lat="16.0603191" lon="108.2134636">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6513753950" visible="true" version="1" changeset="70816810" timestamp="2019-05-31T17:26:13Z" user="Kaarti_B" uid="9029309" lat="16.0624850" lon="108.2116993">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6513821247" visible="true" version="1" changeset="70818516" timestamp="2019-05-31T18:19:04Z" user="Kaarti_B" uid="9029309" lat="16.0619033" lon="108.2117907">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6513821251" visible="true" version="1" changeset="70818516" timestamp="2019-05-31T18:19:04Z" user="Kaarti_B" uid="9029309" lat="16.0622180" lon="108.2117413"/>
+ <node id="6513821256" visible="true" version="1" changeset="70818516" timestamp="2019-05-31T18:19:04Z" user="Kaarti_B" uid="9029309" lat="16.0608128" lon="108.2119614">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6513861312" visible="true" version="1" changeset="70818627" timestamp="2019-05-31T18:22:38Z" user="Kaarti_B" uid="9029309" lat="16.0615751" lon="108.2118423"/>
+ <node id="6513922601" visible="true" version="1" changeset="70819339" timestamp="2019-05-31T18:45:06Z" user="Kaarti_B" uid="9029309" lat="16.0611338" lon="108.2119116"/>
+ <node id="6524293835" visible="true" version="2" changeset="71336289" timestamp="2019-06-17T16:36:32Z" user="Gr8fulDead" uid="9414390" lat="16.0525967" lon="108.2105795">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="6530038698" visible="true" version="2" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0572334" lon="108.2115221">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530038699" visible="true" version="1" changeset="71000921" timestamp="2019-06-06T19:02:39Z" user="daFisch" uid="8759590" lat="16.0571493" lon="108.2116666">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530038700" visible="true" version="1" changeset="71000921" timestamp="2019-06-06T19:02:39Z" user="daFisch" uid="8759590" lat="16.0569843" lon="108.2115695">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530186476" visible="true" version="1" changeset="71001276" timestamp="2019-06-06T19:18:16Z" user="daFisch" uid="8759590" lat="16.0594465" lon="108.2111950"/>
+ <node id="6530186478" visible="true" version="1" changeset="71001276" timestamp="2019-06-06T19:18:16Z" user="daFisch" uid="8759590" lat="16.0588290" lon="108.2112803">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530186481" visible="true" version="1" changeset="71001276" timestamp="2019-06-06T19:18:16Z" user="daFisch" uid="8759590" lat="16.0586116" lon="108.2113117">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530189185" visible="true" version="2" changeset="71374421" timestamp="2019-06-18T17:23:23Z" user="Copernicus529" uid="9319354" lat="16.0580318" lon="108.2113948">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530189186" visible="true" version="1" changeset="71001276" timestamp="2019-06-06T19:18:16Z" user="daFisch" uid="8759590" lat="16.0578634" lon="108.2114194">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530229486" visible="true" version="1" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590" lat="16.0600703" lon="108.2107401">
+  <tag k="addr:housenumber" v="220"/>
+  <tag k="addr:street" v="Đường Nguyễn Văn Linh"/>
+ </node>
+ <node id="6530229487" visible="true" version="1" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590" lat="16.0600397" lon="108.2115259"/>
+ <node id="6530229488" visible="true" version="1" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590" lat="16.0601827" lon="108.2110936">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:direction" v="backward"/>
+ </node>
+ <node id="6530229489" visible="true" version="1" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590" lat="16.0598366" lon="108.2109052">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="6530229490" visible="true" version="1" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590" lat="16.0599423" lon="108.2108929">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530229491" visible="true" version="1" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590" lat="16.0600026" lon="108.2112823">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="6530229492" visible="true" version="1" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590" lat="16.0598976" lon="108.2112964">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530363596" visible="true" version="1" changeset="71001929" timestamp="2019-06-06T19:43:59Z" user="daFisch" uid="8759590" lat="16.0596444" lon="108.2095211">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530363600" visible="true" version="1" changeset="71001929" timestamp="2019-06-06T19:43:59Z" user="daFisch" uid="8759590" lat="16.0597885" lon="108.2098516"/>
+ <node id="6530497239" visible="true" version="1" changeset="71004126" timestamp="2019-06-06T21:24:37Z" user="daFisch" uid="8759590" lat="16.0601292" lon="108.2121131">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530497240" visible="true" version="1" changeset="71004126" timestamp="2019-06-06T21:24:37Z" user="daFisch" uid="8759590" lat="16.0600146" lon="108.2120023">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530497241" visible="true" version="1" changeset="71004126" timestamp="2019-06-06T21:24:37Z" user="daFisch" uid="8759590" lat="16.0601101" lon="108.2119883">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6530497242" visible="true" version="1" changeset="71004126" timestamp="2019-06-06T21:24:37Z" user="daFisch" uid="8759590" lat="16.0599776" lon="108.2117792"/>
+ <node id="6530515131" visible="true" version="1" changeset="71004431" timestamp="2019-06-06T21:41:21Z" user="daFisch" uid="8759590" lat="16.0602546" lon="108.2120452">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6531294016" visible="true" version="1" changeset="71009624" timestamp="2019-06-07T04:21:19Z" user="MichNicole" uid="1996480" lat="16.0549737" lon="108.2119533"/>
+ <node id="6531294021" visible="true" version="2" changeset="71336289" timestamp="2019-06-17T16:36:32Z" user="Gr8fulDead" uid="9414390" lat="16.0546052" lon="108.2119578">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6532955543" visible="true" version="1" changeset="71039592" timestamp="2019-06-07T22:11:05Z" user="MichNicole" uid="1996480" lat="16.0545085" lon="108.2118978">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="6553504666" visible="true" version="1" changeset="71336406" timestamp="2019-06-17T16:40:17Z" user="Gr8fulDead" uid="9414390" lat="16.0556287" lon="108.2118166"/>
+ <node id="6553521255" visible="true" version="1" changeset="71336289" timestamp="2019-06-17T16:36:31Z" user="Gr8fulDead" uid="9414390" lat="16.0564654" lon="108.2116805"/>
+ <node id="6553521270" visible="true" version="1" changeset="71336289" timestamp="2019-06-17T16:36:31Z" user="Gr8fulDead" uid="9414390" lat="16.0547905" lon="108.2119994"/>
+ <node id="6555896696" visible="true" version="2" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0579959" lon="108.2123839">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6555977610" visible="true" version="1" changeset="71376031" timestamp="2019-06-18T18:12:36Z" user="Copernicus529" uid="9319354" lat="16.0588766" lon="108.2122641">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6555977615" visible="true" version="2" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0580923" lon="108.2123699">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6555985176" visible="true" version="1" changeset="71376476" timestamp="2019-06-18T18:27:25Z" user="Copernicus529" uid="9319354" lat="16.0590658" lon="108.2122324">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6558655909" visible="true" version="1" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0587454" lon="108.2122824">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6558655911" visible="true" version="1" changeset="71418792" timestamp="2019-06-19T22:45:48Z" user="Gr8fulDead" uid="9414390" lat="16.0572453" lon="108.2120946">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="6560957853" visible="true" version="1" changeset="71446955" timestamp="2019-06-20T14:23:31Z" user="Gr8fulDead" uid="9414390" lat="16.0593610" lon="108.2118458"/>
+ <node id="6560957854" visible="true" version="1" changeset="71446955" timestamp="2019-06-20T14:23:31Z" user="Gr8fulDead" uid="9414390" lat="16.0592553" lon="108.2118605"/>
+ <node id="6560957855" visible="true" version="1" changeset="71446955" timestamp="2019-06-20T14:23:31Z" user="Gr8fulDead" uid="9414390" lat="16.0592274" lon="108.2116440"/>
+ <node id="6560957856" visible="true" version="1" changeset="71446955" timestamp="2019-06-20T14:23:31Z" user="Gr8fulDead" uid="9414390" lat="16.0593331" lon="108.2116292"/>
+ <node id="6675647535" visible="true" version="1" changeset="72939189" timestamp="2019-08-02T12:56:19Z" user="Rene Tran-Guillot" uid="1638289" lat="16.0600925" lon="108.2113344">
+  <tag k="emergency" v="fire_hydrant"/>
+  <tag k="fire_hydrant:type" v="pillar"/>
+ </node>
+ <node id="7735645153" visible="true" version="1" changeset="88322159" timestamp="2020-07-22T04:42:58Z" user="thevivotran" uid="8955765" lat="16.0604904" lon="108.2123092"/>
+ <node id="7736076823" visible="true" version="1" changeset="88332103" timestamp="2020-07-22T07:41:30Z" user="thevivotran" uid="8955765" lat="16.0560210" lon="108.2117546"/>
+ <node id="7736076828" visible="true" version="1" changeset="88332103" timestamp="2020-07-22T07:41:30Z" user="thevivotran" uid="8955765" lat="16.0551125" lon="108.2119200"/>
+ <node id="7736097011" visible="true" version="1" changeset="88332103" timestamp="2020-07-22T07:41:30Z" user="thevivotran" uid="8955765" lat="16.0571564" lon="108.2117010"/>
+ <node id="7736097018" visible="true" version="1" changeset="88332103" timestamp="2020-07-22T07:41:30Z" user="thevivotran" uid="8955765" lat="16.0563043" lon="108.2117098"/>
+ <node id="7755026963" visible="true" version="2" changeset="88704189" timestamp="2020-07-30T02:31:17Z" user="Arma IRM-ED" uid="8072037" lat="16.0604416" lon="108.2120232"/>
+ <way id="39368999" visible="true" version="25" changeset="88332103" timestamp="2020-07-22T07:41:30Z" user="thevivotran" uid="8955765">
+  <nd ref="6530186476"/>
+  <nd ref="420249081"/>
+  <nd ref="6530186478"/>
+  <nd ref="1333361993"/>
+  <nd ref="6530186481"/>
+  <nd ref="6530189185"/>
+  <nd ref="1333361960"/>
+  <nd ref="6530189186"/>
+  <nd ref="6530038698"/>
+  <nd ref="1333361924"/>
+  <nd ref="6530038700"/>
+  <nd ref="6045746964"/>
+  <nd ref="6553521255"/>
+  <nd ref="1334198615"/>
+  <nd ref="7736097018"/>
+  <nd ref="7736076823"/>
+  <nd ref="6553504666"/>
+  <nd ref="7736076828"/>
+  <nd ref="1334198487"/>
+  <nd ref="6531294016"/>
+  <nd ref="6553521270"/>
+  <nd ref="420248485"/>
+  <nd ref="6531294021"/>
+  <nd ref="6532955543"/>
+  <nd ref="420249078"/>
+  <nd ref="6038434662"/>
+  <nd ref="6038434668"/>
+  <nd ref="6524293835"/>
+  <nd ref="420249080"/>
+  <tag k="garmin_type" v="0x4"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="lanes" v="4"/>
+  <tag k="maxweight" v="5"/>
+  <tag k="name" v="Đường Lê Đình Lý"/>
+  <tag k="source" v="AsiaGPS"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="118566872" visible="true" version="23" changeset="88536465" timestamp="2020-07-27T02:20:56Z" user="Talitha IRM-ED" uid="9421520">
+  <nd ref="1333361924"/>
+  <nd ref="6530038699"/>
+  <nd ref="7736097011"/>
+  <nd ref="1334198791"/>
+  <nd ref="1333361881"/>
+  <nd ref="6558655911"/>
+  <nd ref="1334198546"/>
+  <nd ref="1333361878"/>
+  <nd ref="1333361951"/>
+  <nd ref="1333361983"/>
+  <nd ref="6555896696"/>
+  <nd ref="1333361922"/>
+  <nd ref="6555977615"/>
+  <nd ref="6558655909"/>
+  <nd ref="1333361942"/>
+  <nd ref="6555977610"/>
+  <nd ref="6555985176"/>
+  <nd ref="1334198672"/>
+  <nd ref="6045374212"/>
+  <nd ref="2991819237"/>
+  <nd ref="1333333032"/>
+  <nd ref="6530515131"/>
+  <nd ref="7755026963"/>
+  <nd ref="6513821256"/>
+  <nd ref="1333333049"/>
+  <nd ref="6513922601"/>
+  <nd ref="6513861312"/>
+  <nd ref="6513821247"/>
+  <nd ref="6513821251"/>
+  <nd ref="6513753950"/>
+  <nd ref="1333333030"/>
+  <nd ref="1333361973"/>
+  <tag k="highway" v="residential"/>
+  <tag k="maxspeed" v="40"/>
+  <tag k="name" v="Đường Đỗ Quang"/>
+  <tag k="oneway" v="no"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="695429325" visible="true" version="1" changeset="71001276" timestamp="2019-06-06T19:18:16Z" user="daFisch" uid="8759590">
+  <nd ref="420249033"/>
+  <nd ref="6045383461"/>
+  <nd ref="6530186476"/>
+  <tag k="garmin_type" v="0x4"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="lanes" v="4"/>
+  <tag k="name" v="Đường Lê Đình Lý"/>
+  <tag k="source" v="AsiaGPS"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="turn:lanes:backward" v="left;through|right"/>
+ </way>
+ <way id="695446622" visible="true" version="2" changeset="71343604" timestamp="2019-06-17T20:44:02Z" user="Copernicus529" uid="9319354">
+  <nd ref="420249033"/>
+  <nd ref="2991819236"/>
+  <tag k="garmin_type" v="0x4"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="lanes" v="4"/>
+  <tag k="name" v="Đường Lê Đình Lý"/>
+  <tag k="source" v="AsiaGPS"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="turn:lanes:backward" v="left;through|right"/>
+ </way>
+ <way id="695446623" visible="true" version="1" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590">
+  <nd ref="2991819236"/>
+  <nd ref="6530229488"/>
+  <nd ref="1333394789"/>
+  <tag k="garmin_type" v="0x4"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="lanes" v="4"/>
+  <tag k="name" v="Đường Hàm Nghi"/>
+  <tag k="source" v="AsiaGPS"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="695446624" visible="true" version="1" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590">
+  <nd ref="6530229487"/>
+  <nd ref="6530229491"/>
+  <nd ref="2991819236"/>
+  <tag k="bicycle:lanes" v="no|no|yes"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="3"/>
+  <tag k="moped:lanes" v="no|yes|yes"/>
+  <tag k="motorcycle:lanes" v="no|yes|yes"/>
+  <tag k="motor_vehicle:lanes" v="yes|yes|no"/>
+  <tag k="name" v="Đường Nguyễn Văn Linh"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="turn:lanes" v="left;through|through|right"/>
+  <tag k="vehicle:lanes" v="yes|yes|no"/>
+ </way>
+ <way id="695446625" visible="true" version="6" changeset="71105993" timestamp="2019-06-10T14:49:24Z" user="birdeatscake" uid="9319541">
+  <nd ref="1616276760"/>
+  <nd ref="6512003603"/>
+  <nd ref="3754596962"/>
+  <nd ref="6530497239"/>
+  <nd ref="1333333032"/>
+  <nd ref="6530497241"/>
+  <nd ref="6530229487"/>
+  <tag k="bicycle:lanes" v="no|no|yes"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="3"/>
+  <tag k="moped:lanes" v="no|yes|yes"/>
+  <tag k="motorcycle:lanes" v="no|yes|yes"/>
+  <tag k="motor_vehicle:lanes" v="yes|yes|no"/>
+  <tag k="name" v="Đường Nguyễn Văn Linh"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="695446626" visible="true" version="1" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590">
+  <nd ref="6530229490"/>
+  <nd ref="6530229489"/>
+  <tag k="footway" v="crossing"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="695446627" visible="true" version="1" changeset="71001423" timestamp="2019-06-06T19:24:07Z" user="daFisch" uid="8759590">
+  <nd ref="6530229492"/>
+  <nd ref="6530229491"/>
+  <tag k="footway" v="crossing"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="695490087" visible="true" version="1" changeset="71001929" timestamp="2019-06-06T19:43:59Z" user="daFisch" uid="8759590">
+  <nd ref="2991819236"/>
+  <nd ref="6530229490"/>
+  <nd ref="3514033913"/>
+  <nd ref="6530363600"/>
+  <tag k="bicycle:lanes" v="no|no|yes"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="3"/>
+  <tag k="moped:lanes" v="no|yes|yes"/>
+  <tag k="motorcycle:lanes" v="no|yes|yes"/>
+  <tag k="motor_vehicle:lanes" v="yes|yes|no"/>
+  <tag k="name" v="Đường Nguyễn Văn Linh"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="vehicle:lanes" v="yes|yes|no"/>
+ </way>
+ <way id="695504112" visible="true" version="1" changeset="71004126" timestamp="2019-06-06T21:24:37Z" user="daFisch" uid="8759590">
+  <nd ref="6530497241"/>
+  <nd ref="6530497240"/>
+  <tag k="footway" v="crossing"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="695504113" visible="true" version="1" changeset="71004126" timestamp="2019-06-06T21:24:37Z" user="daFisch" uid="8759590">
+  <nd ref="6530497242"/>
+  <nd ref="6530497240"/>
+  <nd ref="2991819237"/>
+  <tag k="bicycle:lanes" v="no|no|yes"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="3"/>
+  <tag k="motorcycle:lanes" v="no|yes|yes"/>
+  <tag k="motor_vehicle:lanes" v="yes|yes|no"/>
+  <tag k="name" v="Đường Nguyễn Văn Linh"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="turn:lanes" v="left;through|through;right|"/>
+ </way>
+ <way id="695504114" visible="true" version="1" changeset="71004126" timestamp="2019-06-06T21:24:37Z" user="daFisch" uid="8759590">
+  <nd ref="2991816832"/>
+  <nd ref="6530363596"/>
+  <nd ref="3514033912"/>
+  <nd ref="6530229489"/>
+  <nd ref="420249033"/>
+  <nd ref="6530229492"/>
+  <nd ref="6530497242"/>
+  <tag k="bicycle:lanes" v="no|no|yes"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="3"/>
+  <tag k="motorcycle:lanes" v="no|yes|yes"/>
+  <tag k="motor_vehicle:lanes" v="yes|yes|no"/>
+  <tag k="name" v="Đường Nguyễn Văn Linh"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="698689525" visible="true" version="1" changeset="71446955" timestamp="2019-06-20T14:23:31Z" user="Gr8fulDead" uid="9414390">
+  <nd ref="6560957856"/>
+  <nd ref="6560957853"/>
+  <nd ref="6560957854"/>
+  <nd ref="6560957855"/>
+  <nd ref="6560957856"/>
+  <tag k="leisure" v="pitch"/>
+  <tag k="pitch" v="rooftop"/>
+  <tag k="sport" v="tennis"/>
+ </way>
+ <way id="830570933" visible="true" version="1" changeset="88536465" timestamp="2020-07-27T02:20:56Z" user="Talitha IRM-ED" uid="9421520">
+  <nd ref="7755026963"/>
+  <nd ref="7735645153"/>
+  <tag k="highway" v="residential"/>
+  <tag k="source" v="digitalglobe"/>
+ </way>
+</osm>

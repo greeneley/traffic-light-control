@@ -1,0 +1,30 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e3Detector id="e3_gneJ0_-695429325#0" freq="60" file="e3output.xml">
+        <detEntry lane="-39368999#0_0" pos="47.79"/>
+        <detEntry lane="-39368999#0_1" pos="47.79"/>
+        <detExit lane="-695429325#0_0" pos="-.1"/>
+        <detExit lane="-695429325#0_1" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_gneJ0_-695446623#0" freq="60" file="e3output.xml">
+        <detEntry lane="-695446623#1_0" pos="0.10"/>
+        <detEntry lane="-695446623#1_1" pos="0.10"/>
+        <detExit lane="-695446623#0_0" pos="-.1"/>
+        <detExit lane="-695446623#0_1" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_gneJ0_695446624#1" freq="60" file="e3output.xml">
+        <detEntry lane="695446624#0_0" pos="0.10"/>
+        <detEntry lane="695446624#0_1" pos="0.10"/>
+        <detEntry lane="695446624#0_2" pos="0.10"/>
+        <detExit lane="695446624#1_0" pos="-.1"/>
+        <detExit lane="695446624#1_1" pos="-.1"/>
+        <detExit lane="695446624#1_2" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_gneJ0_695504114#2" freq="60" file="e3output.xml">
+        <detEntry lane="695504114#1_0" pos="0.10"/>
+        <detEntry lane="695504114#1_1" pos="0.10"/>
+        <detEntry lane="695504114#1_2" pos="0.10"/>
+        <detExit lane="695504114#2_0" pos="-.1"/>
+        <detExit lane="695504114#2_1" pos="-.1"/>
+        <detExit lane="695504114#2_2" pos="-.1"/>
+    </e3Detector>
+</additional>

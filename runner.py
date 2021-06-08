@@ -152,7 +152,7 @@ def changeCycleTimeTrafficLightControl(traci, tlsID):
         if _element.duration < 10:
             phases.append(traci.trafficlight.Phase(duration=_element.duration, state=_element.state))
         else:
-            phases.append(traci.trafficlight.Phase(duration=_element.duration*0.75, state=_element.state))
+            phases.append(traci.trafficlight.Phase(duration=_element.duration*0.85, state=_element.state))
     newProgram = traci.trafficlight.Logic(tlsID, 0, 0, phases)
 
     return newProgram
@@ -196,86 +196,97 @@ def run():
     # traci.lanearea.getLastStepVehicleNumber: count vehicle tren 1 detector
     """execute the TraCI control loop"""
     step = 1
-
+    count_reset = 0
 
     NS_DETECTOR = ["e2det_-695446623#0_1", "e2det_-695446623#0_0", "e2det_-695429325#0_1", "e2det_-695429325#0_0"]
     WE_DETECTOR = ["e2det_695504114#2_0", "e2det_695504114#2_1", "e2det_695504114#2_2","e2det_695446624#1_2", "e2det_695446624#1_1", "e2det_695446624#1_0"]
 
-
-    while step < 1000:
+    while step < 8000 or traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep()
-        #
-        # """
-        # MODULE 1: TIME OF DAY
-        # DONE: DA DUOC THIET LAP TRONG TRAFFIC_LIGHT
-        # """
-        #
-        #
-        # """
-        # MODULE 2: DANH GIA TINH TRANG GIAO THONG
-        # """
-        #
-        # draftPrograms = [getInfoCurrentTrafficLight(traci, tlsID="gneJ0")]
-        #
-        # if (step % CYCLE_TIME == 0):
-        #
-        #     print(f"""KET THUC CHU KY TIN HIEU: KIEM TRA TINH TRANG GIAO THONG""")
-        #
-        #     """
-        #     MODULE 2.1: Danh gia toan phan
-        #     """
-        #
-        #     laneInfo = LaneInfo(number_lane=11, capacity=66.6)
-        #     vehicleCount = VehicleCounter(traci)
-        #     vehicleCount.getVehicleCount()
-        #     densityClass = getDensityClass(vehicleCount, laneInfo)
-        #     print(f"DANH GIA TOAN PHAN: STEP: {step}, Density class: {densityClass}")
-        #
-        #     if densityClass in ["D", "C", "F"]:
-        #         draftPrograms.append(changeCycleTimeTrafficLightControl(traci, tlsID="gneJ0"))
-        #
-        #     """
-        #     MODULE 2.2: Danh gia rieng phan
-        #     """
-        #     print(f"DANH GIA RIENG PHAN")
-        #     laneInfo_NS = LaneInfo(number_lane=len(NS_DETECTOR), capacity=26.6)
-        #     vehicleCount_NS = VehicleCounter(traci)
-        #     vehicleCount_NS.getVehicleCountInDetector(NS_DETECTOR)
-        #     densityClass_NS = getDensityClass(vehicleCount_NS, laneInfo_NS)
-        #     print(f"STEP: {step}, Density class: {densityClass_NS}")
-        #
-        #     laneInfo_WE = LaneInfo(number_lane=len(WE_DETECTOR), capacity=40)
-        #     vehicleCount_WE = VehicleCounter(traci)
-        #     vehicleCount_WE.getVehicleCountInDetector(WE_DETECTOR)
-        #     densityClass_WE = getDensityClass(vehicleCount_WE, laneInfo_WE)
-        #     print(f"STEP: {step}, Density class: {densityClass_WE}")
-        #
-        #     # densityClass_NS = "B"
-        #     # densityClass_WE = "D"
-        #
-        #     if not densityClass_NS == densityClass_WE == "A":
-        #         draftPrograms.append(changeGreenTimeTrafficLightControlForEachLanes(traci, tlsID="gneJ0",
-        #                                                                             density_level=[densityClass_NS,
-        #                                                                                            densityClass_NS,
-        #                                                                                            densityClass_WE,
-        #                                                                                            densityClass_WE]))
-        #
-        # """
-        # MODULE 3: THUC HIEN SIMULATOR CHO TUNG QUYET DINH
-        # """
-        #
-        # """
-        # MODULE 4: CAP NHAT CHUONG TRINH DIEU KHIEN TIN HIEU PHU HOP
-        # """
-        #
-        # if len(draftPrograms) > 1:
-        #     simulator = Program(draftPrograms)
-        #     simulator.run()
-        #     bestProgram = simulator.getBestProgram()
-        #     print(f"ap dung chuong trinh dieu khien tin hieu:")
-        #     print(f"{bestProgram}")
-        #     traci.trafficlight.setCompleteRedYellowGreenDefinition("gneJ0", bestProgram)
-        #     traci.switch("sim1")
+
+        """
+        MODULE 1: TIME OF DAY
+        DONE: DA DUOC THIET LAP TRONG TRAFFIC_LIGHT
+        """
+
+
+        """
+        MODULE 2: DANH GIA TINH TRANG GIAO THONG
+        """
+
+        draftPrograms = [getInfoCurrentTrafficLight(traci, tlsID="gneJ0")]
+
+        if (step % CYCLE_TIME == 0):
+            print(f"COUNT RESET: {count_reset}")
+            print("="*10)
+            print(f"""KET THUC CHU KY TIN HIEU: KIEM TRA TINH TRANG GIAO THONG""")
+
+            """
+            MODULE 2.1: Danh gia toan phan
+            """
+
+            laneInfo = LaneInfo(number_lane=11, capacity=66.6)
+            vehicleCount = VehicleCounter(traci)
+            vehicleCount.getVehicleCount()
+            densityClass = getDensityClass(vehicleCount, laneInfo)
+            print(f"DANH GIA TOAN PHAN")
+            print(f"STEP: {step}, Density class: {densityClass}")
+
+            """
+            MODULE 2.2: Danh gia rieng phan
+            """
+            print(f"DANH GIA RIENG PHAN")
+            laneInfo_NS = LaneInfo(number_lane=len(NS_DETECTOR), capacity=26.6)
+            vehicleCount_NS = VehicleCounter(traci)
+            vehicleCount_NS.getVehicleCountInDetector(NS_DETECTOR)
+            densityClass_NS = getDensityClass(vehicleCount_NS, laneInfo_NS)
+            print(f"STEP: {step}, Density class: {densityClass_NS}")
+
+            laneInfo_WE = LaneInfo(number_lane=len(WE_DETECTOR), capacity=40)
+            vehicleCount_WE = VehicleCounter(traci)
+            vehicleCount_WE.getVehicleCountInDetector(WE_DETECTOR)
+            densityClass_WE = getDensityClass(vehicleCount_WE, laneInfo_WE)
+            print(f"STEP: {step}, Density class: {densityClass_WE}")
+
+            if count_reset == 2:
+                if densityClass == densityClass_WE == densityClass_NS == "A":
+                    print("=" * 10)
+                    print("Reset chuong trinh tin hieu")
+                    traci.trafficlight.setProgram("gneJ0", "morning")
+                count_reset = 0
+            elif count_reset == 0:
+                if densityClass in ["D", "C", "F"]:
+                    draftPrograms.append(changeCycleTimeTrafficLightControl(traci, tlsID="gneJ0"))
+                if not densityClass_NS == densityClass_WE == "A":
+                    draftPrograms.append(changeGreenTimeTrafficLightControlForEachLanes(traci, tlsID="gneJ0",
+                                                                                        density_level=[densityClass_NS,
+                                                                                                       densityClass_NS,
+                                                                                                       densityClass_WE,
+                                                                                                       densityClass_WE]))
+            else:
+                count_reset += 1
+
+
+
+
+
+        """
+        MODULE 3: THUC HIEN SIMULATOR CHO TUNG QUYET DINH
+        """
+
+        """
+        MODULE 4: CAP NHAT CHUONG TRINH DIEU KHIEN TIN HIEU PHU HOP
+        """
+        if len(draftPrograms) > 1:
+            simulator = Program(draftPrograms)
+            simulator.run()
+            bestProgram = simulator.getBestProgram()
+            print("=" * 10)
+            print(f"ap dung chuong trinh dieu khien tin hieu moi tai step {step}:")
+            print(f"{bestProgram}")
+            traci.trafficlight.setCompleteRedYellowGreenDefinition("gneJ0", bestProgram)
+            count_reset += 1
+            traci.switch("sim1")
         step += 1
     traci.close()
     sys.stdout.flush()
