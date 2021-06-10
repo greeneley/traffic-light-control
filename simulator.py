@@ -58,7 +58,7 @@ class Program:
         for _element in self._programs:
             index = self._programs.index(_element)
             step_time = 1
-            traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg", "-b", "0", "-e", "3600",
+            traci.start([sumoBinary, "-c", "data/NguyenVanLinh/nvl.sumocfg",
                          "--quit-on-end", "--start", "--no-warnings",
                          "--summary",
                          "output/sumoSummary_" + str(index) + ".xml"], label="sim2")
@@ -68,7 +68,7 @@ class Program:
             #              "output/sumoSummary_" + str(index) + ".xml"], label="sim2")
             traci.switch("sim2")
             traci.trafficlight.setCompleteRedYellowGreenDefinition("gneJ0", _element)
-            while step_time < 1000:
+            while traci.simulation.getMinExpectedNumber() > 0:
                 traci.simulationStep()
                 step_time += 1
             traci.close()
@@ -83,10 +83,8 @@ class Program:
         for _element in self._programs:
             index = self._programs.index(_element)
             fileSummary = pd.read_csv("output/sumoSummary_" + str(index) + ".csv", sep=";")
-            speed = fileSummary["step_meanSpeed"].mean()
+            speed = fileSummary["step_waiting"].mean()
             results[index] = speed
-        highest_value = max(results.items(), key=operator.itemgetter(1))[0]
+        highest_value = min(results.items(), key=operator.itemgetter(1))[0]
         return self._programs[highest_value]
-
-
 
