@@ -1,18 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
         <net-file value="nguyenvanlinh.net.xml"/>
-        <route-files value="nvl.odtrips.rou.xml"/>
-        <additional-files value="traffic_light.add.xml, detectors.add.xml"/>
+        <route-files value="nvl_generation.odtrips.xml"/>
     </input>
 
-    <time>
-        <begin value="0"/>
-    </time>
+     <output>
+        <output-file value="nvl_generation.odtrips.rou.xml"/>
+    </output>
 
     <report>
-        <verbose value="true"/>
+        <xml-validation value="never"/>
         <no-step-log value="true"/>
     </report>
 

@@ -3,7 +3,7 @@
 
     <input>
         <net-file value="nguyenvanlinh.net.xml"/>
-        <route-files value="nvl.odtrips.rou.xml"/>
+        <route-files value="nvl_generation.odtrips.rou.xml"/>
         <additional-files value="traffic_light.add.xml, detectors.add.xml"/>
     </input>
 
