@@ -291,7 +291,7 @@ def get_options():
 
 # this is the main entry point of this script
 if __name__ == "__main__":
-    fileOutputSummary = "sumoSummary_01.xml"
+    fileOutputSummary = "sumoSummary.xml"
     options = get_options()
     sumoBinary = checkBinary('sumo' if options.nogui else 'sumo-gui')
     print(sumoBinary)
